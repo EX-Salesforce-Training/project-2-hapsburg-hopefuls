@@ -3,10 +3,22 @@
         {
             "path": "force-app",
             "default": true
+        },
+        {
+            "path": "basePackage",
+            "package": "Base Package",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
         }
     ],
     "name": "Project2",
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "53.0"
+    "sourceApiVersion": "53.0",
+    "packageAliases": {
+        "Base Package": "0Ho5f000000PBHWCA4",
+        "Base Package@0.1.0-1": "04t5f000000aCOuAAM",
+        "Base Package@0.1.0-2": "04t5f000000JUtGAAW"
+    }
 }

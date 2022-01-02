@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Minimum_Bid__c</fullName>
+    <fullName>Image__c</fullName>
     <externalId>false</externalId>
-    <label>Minimum Bid</label>
-    <precision>10</precision>
-    <required>false</required>
-    <scale>0</scale>
+    <label>Image</label>
+    <length>32768</length>
     <trackTrending>false</trackTrending>
-    <type>Currency</type>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
 </CustomField>
