@@ -1,0 +1,13 @@
+.img-size {
+    width: 2rem;
+    height: 2rem;
+}
+
+.product-info {
+    margin-bottom: .5rem;
+    height: 7rem;
+}
+
+.info-line {
+    display: block;
+}

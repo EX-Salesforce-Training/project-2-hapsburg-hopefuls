@@ -1,0 +1,19 @@
+<template>
+    <template for:each={displayCards} for:item="card">
+        <lightning-card key={card.Name}  title={card.Auction_Title__c}>
+            <div class="slds-grid slds-grid_vertical-align-center">
+                <lightning-layout-item class="slds-col" size="2" padding="around-small">
+                    <lightning-formatted-rich-text class="Image" value={card.Image__c}>
+                    </lightning-formatted-rich-text>
+                </lightning-layout-item>
+                <div class="slds-grid_vertical slds-wrap product-info">
+                        <div class="slds-col slds-m-bottom_small"><strong>{card.Description__c}</strong></div>
+                        <p class="slds-col slds-m-bottom_xx-small">Condition: {card.Condition__c}</p>
+                        <div class="slds-col">Starting at:</div>
+                        <p class="slds-col slds-text-heading_medium">${card.Minimum_Bid__c}</p>
+                        <p class="slds-col">+${card.Shipping_Cost__c} shipping</p>
+                </div>
+            </div>
+        </lightning-card>
+    </template>
+</template>
