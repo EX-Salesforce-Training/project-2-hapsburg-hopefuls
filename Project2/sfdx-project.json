@@ -19,23 +19,6 @@
                     "versionNumber": "0.1.0.LATEST"
                 }
             ]
-        },
-        {
-            "path": "header",
-            "package": "Header",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "dependencies": [
-                {
-                    "package": "Base Package",
-                    "versionNumber": "0.1.0.LATEST"
-                },
-                {
-                    "package": "Search Results",
-                    "versionNumber": "0.1.0.LATEST"
-                }
-            ]
         }
     ],
     "name": "Project2",
