@@ -6,6 +6,14 @@
     </types>
     <types>
         <members>*</members>
+        <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>ApexComponent</name>
     </types>
     <types>
