@@ -1,3 +1,64 @@
 <aura:component>
-    <div>changed profile</div>
+    <aura:attribute name="selectedItem" type="String" />
+    <aura:attribute name="currentContent" type="String" />
+    <aura:attribute name="updatedCount" type="Integer" />
+    
+    <aura:handler name="init" value="{! this }" action="{! c.init }" />
+    
+    <lightning:tabset>
+        <lightning:tab label="Activity">
+            
+            <div>
+                <lightning:layout>
+                    <lightning:layoutItem>
+                        <lightning:verticalNavigation selectedItem="{!v.selectedItem}" onselect="{!c.handleSelect}" class="navigation">
+                            <lightning:verticalNavigationSection>
+                                <lightning:verticalNavigationItem label="Summary" name="summary" />
+                                <lightning:verticalNavigationItem label="Recently viewed" name="recently_viewed" />                                
+                                <lightning:verticalNavigationItemBadge
+                                                                       label="Bids/Offers"
+                                                                       name="bids_offers"
+                                                                       badgeCount="{! v.updatedCount }" />
+                                
+                                <lightning:verticalNavigationItem label="Purchase history" name="purchase_history"  />
+                                <lightning:verticalNavigationItem label="Watching" name="watching" />
+                                <lightning:verticalNavigationItem label="Saved searches" name="saved_sellers" />
+                                <lightning:verticalNavigationOverflow>
+                                    <!-- Placeholder: needs selling text and tabbed over items -->
+                                    <lightning:verticalNavigationItem label="Overview" name="selling_overview" />
+                                    <lightning:verticalNavigationItem label="Sell an item" name="selling_sell" />
+                                    <lightning:verticalNavigationItem label="Drafts" name="selling_drafts" />
+                                    <lightning:verticalNavigationItem label="Scheduled" name="selling_scheduled" />
+                                    <lightning:verticalNavigationItem label="Active" name="selling_active" />
+                                    <lightning:verticalNavigationItem label="Sold" name="selling_sold" />
+                                    <lightning:verticalNavigationItem label="Unsold" name="selling_unsold" />
+                                    <lightning:verticalNavigationItem label="Payments" name="selling_payments" />
+                                    <lightning:verticalNavigationItem label="Shipping labels" name="selling_shipping_labels" />
+                                </lightning:verticalNavigationOverflow>
+                                <lightning:verticalNavigationItem label="Collection beta" name="collection" />
+                            </lightning:verticalNavigationSection>    
+                        </lightning:verticalNavigation>
+                    </lightning:layoutItem>
+                    <lightning:layoutItem padding="around-medium">
+                        <p>You Are Viewing: {! v.currentContent } </p>
+                        <lightning:card footer="Card Footer" title="Hello">
+                            <aura:set attribute="actions">
+                                <lightning:button label="New"/>
+                            </aura:set>
+                            <p class="slds-p-horizontal_small">
+                                Card Body (custom component)
+                            </p>
+                        </lightning:card>
+                    </lightning:layoutItem>
+                </lightning:layout>
+            </div>
+            
+        </lightning:tab>
+        <lightning:tab label="Messages">
+            <!-- Placeholder -->
+        </lightning:tab>
+        <lightning:tab label="Account">
+            Sample Content Two
+        </lightning:tab>
+    </lightning:tabset>
 </aura:component>
