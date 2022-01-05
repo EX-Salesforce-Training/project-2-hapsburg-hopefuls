@@ -1,36 +1,12 @@
 {
-    "packageDirectories": [
-        {
-            "path": "basePackage",
-            "package": "Base Package",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": true
-        },
-        {
-            "path": "searchResultsPage",
-            "package": "Search Results",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false,
-            "dependencies": [
-                {
-                    "package": "Base Package",
-                    "versionNumber": "0.1.0.LATEST"
-                }
-            ]
-        }
-    ],
-    "name": "Project2",
-    "namespace": "",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "53.0",
-    "packageAliases": {
-        "Base Package": "0Ho5f000000PBHWCA4",
-        "Base Package@0.1.0-1": "04t5f000000aCOuAAM",
-        "Base Package@0.1.0-2": "04t5f000000JUtGAAW",
-        "Search Results": "0Ho5f000000PBHgCAO",
-        "Header": "0Ho5f000000PBHlCAO",
-        "Search Results@0.1.0-1": "04t5f000000JVRGAA4"
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
     }
+  ],
+  "name": "YaoProject2",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "52.0"
 }
