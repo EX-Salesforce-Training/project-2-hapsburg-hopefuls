@@ -1,0 +1,19 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    <lightning:messageChannel type="Filter__c" aura:id="Filter"/>
+
+    <aura:attribute name="options" type="List" default="[
+    {'label': 'Sales', 'value': 'option1'},
+    {'label': 'Force', 'value': 'option2'}
+    ]"/>
+    <aura:attribute name="value" type="String" default="option1"/>
+
+    <lightning:card footer="Card Footer" title="Hello">
+        <lightning:radioGroup name="radioGroup"
+                              label="Radio Group"
+                              options="{! v.options }"
+                              onchange="{!c.handleFilter}"
+                              value="{! v.value }"
+                              type="radio"/>
+    </lightning:card>
+
+</aura:component>	

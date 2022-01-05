@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Filter</masterLabel>
+    <isExposed>true</isExposed>
+    <description>Message Channel to pass filer data</description>
+    <lightningMessageFields>
+        <fieldName>filterData</fieldName>
+        <description>This is the string with which to filter the data</description>
+    </lightningMessageFields>
+</LightningMessageChannel>
