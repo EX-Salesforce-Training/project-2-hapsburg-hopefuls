@@ -43,8 +43,6 @@ package.xml
 **/MyProfilePageController.cls
 **/ForgotPasswordControllerTest.cls-meta.xml
 **/ForgotPasswordControllerTest.cls
-**/ProfileController.cls-meta.xml
-**/ProfileController.cls
 **/MyProfilePageControllerTest.cls-meta.xml
 **/MyProfilePageControllerTest.cls
 **/CommunitiesLoginControllerTest.cls
