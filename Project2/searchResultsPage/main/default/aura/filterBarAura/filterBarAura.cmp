@@ -2,12 +2,15 @@
     <lightning:messageChannel type="Filter__c" aura:id="Filter"/>
 
     <aura:attribute name="options" type="List" default="[
-    {'label': 'Sales', 'value': 'option1'},
-    {'label': 'Force', 'value': 'option2'}
+    {'label': 'Music', 'value': 'Music'},
+    {'label': 'Art', 'value': 'Art'},
+    {'label': 'Sporting Goods', 'value': 'Sporting Goods'},
+    {'label': 'Electronics', 'value': 'Electronics'},
+    {'label': 'Clothing', 'value': 'Clothing'}
     ]"/>
     <aura:attribute name="value" type="String" default="option1"/>
 
-    <lightning:card footer="Card Footer" title="Hello">
+    <lightning:card title="Hello">
         <lightning:radioGroup name="radioGroup"
                               label="Radio Group"
                               options="{! v.options }"

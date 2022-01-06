@@ -6,6 +6,7 @@ import {
     MessageContext,
     createMessageContext
 } from 'lightning/messageService';
+import getSearchResults from '@salesforce/apex/searchResultsPageController.getSearchResults'
 import FILTER from '@salesforce/messageChannel/Filter__c';
 
 export default class SearchResultsCard extends LightningElement {
@@ -13,9 +14,16 @@ export default class SearchResultsCard extends LightningElement {
     context = createMessageContext();
     subscription = null;
     @track filterValue;
-    @api displayCards = [];
+    @track displayCards = [];
 
     connectedCallback() {
+        let results = getSearchResults();
+        results.then(res => {
+            for(let i = 0; i < Object.keys(res).length; i++) {
+                const newObj = Object.assign({display: true}, res[i]);
+                this.displayCards.push(newObj);
+            }
+        })
         this.subscribeMC();
     }
 
@@ -31,5 +39,13 @@ export default class SearchResultsCard extends LightningElement {
 
     handleMessage(message) {
         this.filterValue = message.filterData;
+        console.log(this.filterValue);
+        for(let card of this.displayCards) {
+            if(card.Product_Tags__c.includes(this.filterValue)) {
+                card.display = true;
+            } else {
+                card.display = false;
+            }
+        }
     }
 }
