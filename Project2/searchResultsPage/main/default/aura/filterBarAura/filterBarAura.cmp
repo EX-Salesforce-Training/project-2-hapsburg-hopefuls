@@ -1,5 +1,10 @@
 <aura:component
+<<<<<<< HEAD
     implements="forceCommunity:availableForAllPageTypes, flexiPage:availableForAllPageTypes"
+=======
+    implements="flexipage:availableForAllPageTypes"
+    implements="forceCommunity:availableForAllPageTypes"
+>>>>>>> 43b6c89 (confusion)
     access="global"
 >
     <lightning:messageChannel type="Filter__c" aura:id="Filter" />
@@ -18,7 +23,10 @@
     <aura:attribute name="value" type="String" default="option1" />
 
     <lightning:card title="Filter">
+<<<<<<< HEAD
         <a onclick="{!c.handleTag}" href="/s/profile" value="hello">Push Me</a>
+=======
+>>>>>>> 43b6c89 (confusion)
         <lightning:radioGroup
             class="slds-m-left_medium"
             name="radioGroup"
