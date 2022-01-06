@@ -12,13 +12,13 @@ package.xml
 **/__tests__/**
 
 # Exclude from package - manual
-**/settings
+**/main/default/settings
 **/aura/Harness
-**/profiles
-**/layouts
+**/main/default/profiles
+**/main/default/layouts
 
 # experiencecloud
-**/profile
+**/main/default/profile
 **/staticresources
 **/aura/forgotPassword
 **/aura/loginForm
@@ -88,3 +88,11 @@ package.xml
 **/Default_Navigation.navigationMenu-meta.xml
 **/Best_Auction.site-meta.xml
 **/Default_Best Auction.audience-meta.xml
+
+# test
+**/aura/TestAuction
+**/aura/TestBid
+**/aura/TestComponent
+**/aura/TestHeader
+**/aura/TestHome
+**/objects/Bid__c/listViews/All.listView-meta.xml

@@ -1,9 +1,14 @@
-<aura:component>
+<aura:component implements="forceCommunity:availableForAllPageTypes" controller="ProfileController">
     <aura:attribute name="selectedItem" type="String" />
     <aura:attribute name="currentContent" type="String" />
     <aura:attribute name="updatedCount" type="Integer" />
     
-    <aura:handler name="init" value="{! this }" action="{! c.init }" />
+    <aura:attribute name="currentProfile" type="Contact" />
+    <aura:attribute name="bids" type="Bid__c[]" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    
+    <h1>{!v.currentProfile.Name}</h1>
     
     <lightning:tabset>
         <lightning:tab label="Activity">
@@ -41,14 +46,14 @@
                     </lightning:layoutItem>
                     <lightning:layoutItem padding="around-medium">
                         <p>You Are Viewing: {! v.currentContent } </p>
-                        <lightning:card footer="Card Footer" title="Hello">
-                            <aura:set attribute="actions">
-                                <lightning:button label="New"/>
-                            </aura:set>
-                            <p class="slds-p-horizontal_small">
-                                Card Body (custom component)
-                            </p>
-                        </lightning:card>
+                        <aura:iteration items="{!v.bids}" var="bid">
+                            <lightning:card footer="{!'$' + bid.Price__c}" title="{!bid.Auction__r.Auction_Title__c}">
+                                <aura:set attribute="actions">
+                                    <lightning:button label="Bid"/>
+                                </aura:set>
+                                <lightning:formattedRichText value="{!bid.Auction__r.Image__c}" />
+                            </lightning:card>
+                        </aura:iteration>
                     </lightning:layoutItem>
                 </lightning:layout>
             </div>
