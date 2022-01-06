@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "trailingComma": "none",
     "printWidth": 120,
     "tabWidth": 4,
@@ -14,6 +15,8 @@
         }
     ]
 =======
+=======
+>>>>>>> 27380b8 (searchBar touch up)
   "trailingComma": "none",
   "tabWidth": 4,
   "printWidth": 120,
@@ -27,5 +30,23 @@
       "options": { "parser": "html" }
     }
   ]
+<<<<<<< HEAD
 >>>>>>> 43b6c89 (confusion)
+=======
+=======
+    "trailingComma": "none",
+    "printWidth": 120,
+    "tabWidth": 4,
+    "overrides": [
+        {
+            "files": "**/lwc/**/*.html",
+            "options": { "parser": "lwc" }
+        },
+        {
+            "files": "*.{cmp,page,component}",
+            "options": { "parser": "html" }
+        }
+    ]
+>>>>>>> 91d9a38 (searchBar touch up)
+>>>>>>> 27380b8 (searchBar touch up)
 }
