@@ -1,6 +1,6 @@
 ({
     init : function(component, event, helper) {
-        console.log('init');
+        //console.log('init');
 		component.set('v.updatedCount', 12);
         component.set('v.selectedItem', 'reports_recent');
         component.set('v.currentContent', 'reports_recent');

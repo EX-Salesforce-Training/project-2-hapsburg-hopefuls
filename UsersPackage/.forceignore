@@ -25,9 +25,10 @@ package.xml
 **/aura/setExpId
 **/aura/selfRegister
 **/aura/setStartUrl
-**/components
-**/pages
-**/roles
+**/main/default/components
+**/main/default/pages
+**/main/default/roles
+**/main/default/navigationMenus
 
 # experiencecloud - files
 **/ForgotPasswordController.cls-meta.xml

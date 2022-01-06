@@ -46,6 +46,7 @@
                     </lightning:layoutItem>
                     <lightning:layoutItem padding="around-medium">
                         <p>You Are Viewing: {! v.currentContent } </p>
+                        <c:profileInnerComponent />
                         <aura:iteration items="{!v.bids}" var="bid">
                             <lightning:card footer="{!'$' + bid.Price__c}" title="{!bid.Auction__r.Auction_Title__c}">
                                 <aura:set attribute="actions">
