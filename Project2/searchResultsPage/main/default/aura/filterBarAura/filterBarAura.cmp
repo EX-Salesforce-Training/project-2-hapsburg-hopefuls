@@ -10,8 +10,8 @@
     ]"/>
     <aura:attribute name="value" type="String" default="option1"/>
 
-    <lightning:card title="Hello">
-        <lightning:radioGroup name="radioGroup"
+    <lightning:card title="Filter">
+        <lightning:radioGroup class="slds-m-left_medium" name="radioGroup"
                               label="Radio Group"
                               options="{! v.options }"
                               onchange="{!c.handleFilter}"
@@ -19,4 +19,4 @@
                               type="radio"/>
     </lightning:card>
 
-</aura:component>	
+</aura:component>
