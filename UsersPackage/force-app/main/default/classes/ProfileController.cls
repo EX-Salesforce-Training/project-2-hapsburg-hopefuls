@@ -1,11 +1,11 @@
 public without sharing class ProfileController {
-    @AuraEnabled
+    @AuraEnabled(cacheable=true)
     public static User getUser() {
         User user = [SELECT name, contactId FROM User WHERE Id=:UserInfo.getUserId()];
         return user;
     }
     
-	@AuraEnabled
+	@AuraEnabled(cacheable=true)
     public static Contact getProfile() {
         User user = [SELECT contactId FROM User WHERE Id=:UserInfo.getUserId()];
         Contact contact = [SELECT name, email FROM Contact WHERE Id=:user.ContactId];
@@ -13,7 +13,7 @@ public without sharing class ProfileController {
         return contact;
     }
     
-    @AuraEnabled
+    @AuraEnabled(cacheable=true)
     public static List<Bid__c> getBids() {
         User user = [SELECT contactId FROM User WHERE Id=:UserInfo.getUserId()];
         Contact contact = [SELECT name FROM Contact WHERE Id=:user.ContactId];
