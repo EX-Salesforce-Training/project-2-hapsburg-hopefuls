@@ -1,6 +1,7 @@
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "trailingComma": "none",
     "printWidth": 120,
     "tabWidth": 4,
@@ -17,6 +18,8 @@
 =======
 =======
 >>>>>>> 27380b8 (searchBar touch up)
+=======
+>>>>>>> 8e9d5cb (struggle)
   "trailingComma": "none",
   "tabWidth": 4,
   "printWidth": 120,
@@ -30,6 +33,7 @@
       "options": { "parser": "html" }
     }
   ]
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 43b6c89 (confusion)
 =======
@@ -50,3 +54,6 @@
 >>>>>>> 91d9a38 (searchBar touch up)
 >>>>>>> 27380b8 (searchBar touch up)
 }
+=======
+}
+>>>>>>> 8e9d5cb (struggle)
