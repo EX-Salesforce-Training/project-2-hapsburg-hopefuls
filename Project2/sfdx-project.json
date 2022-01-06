@@ -12,6 +12,19 @@
             "package": "Search Results",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "dependencies": [
+                {
+                    "package": "Base Package",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "headerBar",
+            "package": "Header Bar",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
             "default": true,
             "dependencies": [
                 {
@@ -31,6 +44,7 @@
         "Base Package@0.1.0-2": "04t5f000000JUtGAAW",
         "Search Results": "0Ho5f000000PBHgCAO",
         "Search Results@0.1.0-1": "04t5f000000JVRGAA4",
-        "Base Package@0.1.0-3": "04t5f000000JWedAAG"
+        "Base Package@0.1.0-3": "04t5f000000JWedAAG",
+        "Header Bar": "0Ho5f000000PBIFCA4"
     }
 }

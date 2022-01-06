@@ -1,22 +1,32 @@
-<aura:component implements="flexipage:availableForAllPageTypes" access="global">
-    <lightning:messageChannel type="Filter__c" aura:id="Filter"/>
+<aura:component
+    implements="forceCommunity:availableForAllPageTypes, flexiPage:availableForAllPageTypes"
+    access="global"
+>
+    <lightning:messageChannel type="Filter__c" aura:id="Filter" />
 
-    <aura:attribute name="options" type="List" default="[
+    <aura:attribute
+        name="options"
+        type="List"
+        default="[
     {'label': 'Music', 'value': 'Music'},
     {'label': 'Art', 'value': 'Art'},
     {'label': 'Sporting Goods', 'value': 'Sporting Goods'},
     {'label': 'Electronics', 'value': 'Electronics'},
     {'label': 'Clothing', 'value': 'Clothing'}
-    ]"/>
-    <aura:attribute name="value" type="String" default="option1"/>
+    ]"
+    />
+    <aura:attribute name="value" type="String" default="option1" />
 
     <lightning:card title="Filter">
-        <lightning:radioGroup class="slds-m-left_medium" name="radioGroup"
-                              label="Radio Group"
-                              options="{! v.options }"
-                              onchange="{!c.handleFilter}"
-                              value="{! v.value }"
-                              type="radio"/>
+        <a onclick="{!c.handleTag}" href="/s/profile" value="hello">Push Me</a>
+        <lightning:radioGroup
+            class="slds-m-left_medium"
+            name="radioGroup"
+            label="Radio Group"
+            options="{! v.options }"
+            onchange="{!c.handleFilter}"
+            value="{! v.value }"
+            type="radio"
+        />
     </lightning:card>
-
 </aura:component>
