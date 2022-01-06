@@ -1,0 +1,41 @@
+<template>
+    <div class="slds-context-bar">
+        <div class="slds-context-bar__primary">
+            <div
+                class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-no-hover"
+            >
+                <span class="slds-context-bar__label-action slds-context-bar__app-name">
+                    <span class="slds-truncate" title="App Name">Best Auction</span>
+                </span>
+            </div>
+        </div>
+        <nav class="slds-context-bar__secondary" role="navigation">
+            <ul class="slds-grid">
+                <li class="nav-item slds-context-bar__item">
+                    <a href="/" class="slds-context-bar__label-action" title="Home">
+                        <span class="slds-truncate" title="Home">Home</span>
+                    </a>
+                </li>
+                <li class="slds-col_bump-right nav-item slds-context-bar__item">
+                    <a href="/s/profile" class="slds-context-bar__label-action" title="Profile">
+                        <span class="slds-truncate" title="Profile">Profile</span>
+                    </a>
+                </li>
+                <template if:true={loggedIn}>
+                    <li class="nav-item slds-context-bar__item">
+                        <a href="/secur/logout.jsp" class="slds-context-bar__label-action" title="Menu Item">
+                            <span class="slds-truncate" title="Menu Item">Logout</span>
+                        </a>
+                    </li>
+                </template>
+                <template if:false={loggedIn}>
+                    <li class="nav-item slds-context-bar__item">
+                        <a href="/login" class="slds-context-bar__label-action" title="Menu Item">
+                            <span class="slds-truncate" title="Menu Item">Login</span>
+                        </a>
+                    </li>
+                </template>
+            </ul>
+        </nav>
+    </div>
+</template>
