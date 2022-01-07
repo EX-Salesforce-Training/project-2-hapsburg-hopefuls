@@ -1,6 +1,7 @@
 <aura:component
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     implements="forceCommunity:availableForAllPageTypes, flexiPage:availableForAllPageTypes"
 =======
     implements="flexipage:availableForAllPageTypes"
@@ -13,6 +14,9 @@
     implements="forceCommunity:availableForAllPageTypes, flexiPage:availableForAllPageTypes"
 >>>>>>> 91d9a38 (searchBar touch up)
 >>>>>>> 27380b8 (searchBar touch up)
+=======
+    implements="forceCommunity:availableForAllPageTypes, flexiPage:availableForAllPageTypes"
+>>>>>>> eb11eeb (testing search)
     access="global"
 >
     <lightning:messageChannel type="Filter__c" aura:id="Filter" />
@@ -33,6 +37,7 @@
     <lightning:card title="Filter">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <a onclick="{!c.handleTag}" href="/s/profile" value="hello">Push Me</a>
 =======
 >>>>>>> 43b6c89 (confusion)
@@ -41,6 +46,8 @@
         <a onclick="{!c.handleTag}" href="/s/profile" value="hello">Push Me</a>
 >>>>>>> 91d9a38 (searchBar touch up)
 >>>>>>> 27380b8 (searchBar touch up)
+=======
+>>>>>>> eb11eeb (testing search)
         <lightning:radioGroup
             class="slds-m-left_medium"
             name="radioGroup"

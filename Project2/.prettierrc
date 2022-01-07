@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "trailingComma": "none",
     "printWidth": 120,
     "tabWidth": 4,
@@ -41,6 +42,11 @@
     "trailingComma": "none",
     "printWidth": 120,
     "tabWidth": 4,
+=======
+    "trailingComma": "none",
+    "tabWidth": 4,
+    "printWidth": 120,
+>>>>>>> eb11eeb (testing search)
     "overrides": [
         {
             "files": "**/lwc/**/*.html",
@@ -51,9 +57,13 @@
             "options": { "parser": "html" }
         }
     ]
+<<<<<<< HEAD
 >>>>>>> 91d9a38 (searchBar touch up)
 >>>>>>> 27380b8 (searchBar touch up)
 }
 =======
 }
 >>>>>>> 8e9d5cb (struggle)
+=======
+}
+>>>>>>> eb11eeb (testing search)

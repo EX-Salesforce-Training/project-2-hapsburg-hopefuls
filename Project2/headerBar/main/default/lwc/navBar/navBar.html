@@ -9,8 +9,8 @@
                 </span>
             </div>
         </div>
-        <nav class="wide slds-context-bar__secondary" role="navigation">
-            <ul class="slds-grid">
+        <nav class="slds-context-bar__secondary" role="navigation">
+            <ul class="slds-grid wide">
                 <li class="nav-item slds-context-bar__item">
                     <a href="/" class="slds-context-bar__label-action" title="Home">
                         <span class="slds-truncate" title="Home">Home</span>
@@ -20,6 +20,12 @@
                     <a href="/s/profile" class="slds-context-bar__label-action" title="Profile">
                         <span class="slds-truncate" title="Profile">Profile</span>
                     </a>
+                </li>
+                <li class="slds-grid slds-grid_vertical-align-center">
+                    <input class="slds-col search-bar" placeholder="Search..." type="text" />
+                </li>
+                <li class="slds-grid slds-grid_vertical-align-center">
+                    <button onclick={handleSearch} class="search-button">Search</button>
                 </li>
                 <template if:true={loggedIn}>
                     <li class="nav-item slds-context-bar__item">
