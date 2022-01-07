@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0055f000007woZZAAY",
+    "createdByName": "Matthew Lewandowski",
+    "createdDate": "2021-12-29T20:43:27.000Z",
+    "fileName": "navigationMenus/Default_Navigation.navigationMenu",
+    "fullName": "Default_Navigation",
+    "id": "0Lm5f000000gJqJCAU",
+    "lastModifiedById": "0055f000007woZZAAY",
+    "lastModifiedByName": "Matthew Lewandowski",
+    "lastModifiedDate": "2021-12-29T20:43:27.000Z",
+    "manageableState": "unmanaged",
+    "type": "NavigationMenu"
+  }
+}

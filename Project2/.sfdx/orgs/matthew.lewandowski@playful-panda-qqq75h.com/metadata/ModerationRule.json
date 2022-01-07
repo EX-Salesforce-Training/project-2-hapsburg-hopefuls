@@ -1,0 +1,65 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055f000007woZZAAY",
+      "createdByName": "Matthew Lewandowski",
+      "createdDate": "2021-12-29T20:44:12.000Z",
+      "fileName": "moderation/Best Auction.Freeze_for_frequent_posting.rule",
+      "fullName": "Best Auction.Freeze_for_frequent_posting",
+      "id": "0LJ5f000000eHjqGAE",
+      "lastModifiedById": "0055f000007woZZAAY",
+      "lastModifiedByName": "Matthew Lewandowski",
+      "lastModifiedDate": "2021-12-29T20:44:12.000Z",
+      "type": "ModerationRule"
+    },
+    {
+      "createdById": "0055f000007woZZAAY",
+      "createdByName": "Matthew Lewandowski",
+      "createdDate": "2021-12-29T20:44:12.000Z",
+      "fileName": "moderation/Best Auction.Flag_banned.rule",
+      "fullName": "Best Auction.Flag_banned",
+      "id": "0LJ5f000000eHjpGAE",
+      "lastModifiedById": "0055f000007woZZAAY",
+      "lastModifiedByName": "Matthew Lewandowski",
+      "lastModifiedDate": "2021-12-29T20:44:12.000Z",
+      "type": "ModerationRule"
+    },
+    {
+      "createdById": "0055f000007woZZAAY",
+      "createdByName": "Matthew Lewandowski",
+      "createdDate": "2021-12-29T20:44:12.000Z",
+      "fileName": "moderation/Best Auction.Block_banned_keywords.rule",
+      "fullName": "Best Auction.Block_banned_keywords",
+      "id": "0LJ5f000000eHjoGAE",
+      "lastModifiedById": "0055f000007woZZAAY",
+      "lastModifiedByName": "Matthew Lewandowski",
+      "lastModifiedDate": "2021-12-29T20:44:12.000Z",
+      "type": "ModerationRule"
+    },
+    {
+      "createdById": "0055f000007woZZAAY",
+      "createdByName": "Matthew Lewandowski",
+      "createdDate": "2021-12-29T20:44:12.000Z",
+      "fileName": "moderation/Best Auction.Review_the_first_post.rule",
+      "fullName": "Best Auction.Review_the_first_post",
+      "id": "0LJ5f000000eHjsGAE",
+      "lastModifiedById": "0055f000007woZZAAY",
+      "lastModifiedByName": "Matthew Lewandowski",
+      "lastModifiedDate": "2021-12-29T20:44:12.000Z",
+      "type": "ModerationRule"
+    },
+    {
+      "createdById": "0055f000007woZZAAY",
+      "createdByName": "Matthew Lewandowski",
+      "createdDate": "2021-12-29T20:44:12.000Z",
+      "fileName": "moderation/Best Auction.Replace_banned.rule",
+      "fullName": "Best Auction.Replace_banned",
+      "id": "0LJ5f000000eHjrGAE",
+      "lastModifiedById": "0055f000007woZZAAY",
+      "lastModifiedByName": "Matthew Lewandowski",
+      "lastModifiedDate": "2021-12-29T20:44:12.000Z",
+      "type": "ModerationRule"
+    }
+  ]
+}

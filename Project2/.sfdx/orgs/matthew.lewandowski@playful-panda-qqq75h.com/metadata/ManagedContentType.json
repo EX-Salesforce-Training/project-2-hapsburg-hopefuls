@@ -1,0 +1,41 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055f000008E0rHAAS",
+      "createdByName": "Automated Process",
+      "createdDate": "2021-12-29T19:22:57.000Z",
+      "fileName": "managedContentTypes/news.managedContentType",
+      "fullName": "news",
+      "id": "0T15f000000QumvCAC",
+      "lastModifiedById": "0055f000008E0rHAAS",
+      "lastModifiedByName": "Automated Process",
+      "lastModifiedDate": "2021-12-29T19:22:57.000Z",
+      "type": "ManagedContentType"
+    },
+    {
+      "createdById": "0055f000008E0rHAAS",
+      "createdByName": "Automated Process",
+      "createdDate": "2021-12-29T19:22:57.000Z",
+      "fileName": "managedContentTypes/cms_document.managedContentType",
+      "fullName": "cms_document",
+      "id": "0T15f000000QumtCAC",
+      "lastModifiedById": "0055f000008E0rHAAS",
+      "lastModifiedByName": "Automated Process",
+      "lastModifiedDate": "2021-12-29T19:22:57.000Z",
+      "type": "ManagedContentType"
+    },
+    {
+      "createdById": "0055f000008E0rHAAS",
+      "createdByName": "Automated Process",
+      "createdDate": "2021-12-29T19:22:57.000Z",
+      "fileName": "managedContentTypes/cms_image.managedContentType",
+      "fullName": "cms_image",
+      "id": "0T15f000000QumuCAC",
+      "lastModifiedById": "0055f000008E0rHAAS",
+      "lastModifiedByName": "Automated Process",
+      "lastModifiedDate": "2021-12-29T19:22:57.000Z",
+      "type": "ManagedContentType"
+    }
+  ]
+}

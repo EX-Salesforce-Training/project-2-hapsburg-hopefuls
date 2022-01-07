@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "packageDirectories": [
         {
             "path": "basePackage",
@@ -46,5 +47,16 @@
         "Search Results@0.1.0-1": "04t5f000000JVRGAA4",
         "Base Package@0.1.0-3": "04t5f000000JWedAAG",
         "Header Bar": "0Ho5f000000PBIFCA4"
+=======
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+>>>>>>> Yao2
     }
+  ],
+  "name": "YaoProject2a",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "52.0"
 }
