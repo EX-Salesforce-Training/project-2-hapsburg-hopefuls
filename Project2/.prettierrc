@@ -1,8 +1,4 @@
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     "trailingComma": "none",
     "printWidth": 120,
     "tabWidth": 4,
@@ -16,54 +12,4 @@
             "options": { "parser": "html" }
         }
     ]
-=======
-=======
->>>>>>> 27380b8 (searchBar touch up)
-=======
->>>>>>> 8e9d5cb (struggle)
-  "trailingComma": "none",
-  "tabWidth": 4,
-  "printWidth": 120,
-  "overrides": [
-    {
-      "files": "**/lwc/**/*.html",
-      "options": { "parser": "lwc" }
-    },
-    {
-      "files": "*.{cmp,page,component}",
-      "options": { "parser": "html" }
-    }
-  ]
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 43b6c89 (confusion)
-=======
-=======
-    "trailingComma": "none",
-    "printWidth": 120,
-    "tabWidth": 4,
-=======
-    "trailingComma": "none",
-    "tabWidth": 4,
-    "printWidth": 120,
->>>>>>> eb11eeb (testing search)
-    "overrides": [
-        {
-            "files": "**/lwc/**/*.html",
-            "options": { "parser": "lwc" }
-        },
-        {
-            "files": "*.{cmp,page,component}",
-            "options": { "parser": "html" }
-        }
-    ]
-<<<<<<< HEAD
->>>>>>> 91d9a38 (searchBar touch up)
->>>>>>> 27380b8 (searchBar touch up)
 }
-=======
-}
->>>>>>> 8e9d5cb (struggle)
-=======
-}
->>>>>>> eb11eeb (testing search)

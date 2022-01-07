@@ -4,6 +4,8 @@ export default class NavBar extends LightningElement {
     loggedin = true;
 
     handleSearch(event) {
-        window.location.href = "/search-result";
+        let searchResult = this.template.querySelector("input").value;
+        sessionStorage.setItem("SearchResult", searchResult);
+        window.location.href = "/s/search-result";
     }
 }

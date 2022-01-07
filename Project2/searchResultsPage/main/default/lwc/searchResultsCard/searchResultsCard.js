@@ -18,7 +18,7 @@ export default class SearchResultsCard extends LightningElement {
 
     connectedCallback() {
         this.test = sessionStorage.getItem("SearchResult");
-        let results = getSearchResults();
+        let results = getSearchResults({ searchTerm: this.test });
         results.then((res) => {
             for (let i = 0; i < Object.keys(res).length; i++) {
                 const newObj = Object.assign({ display: true }, res[i]);
