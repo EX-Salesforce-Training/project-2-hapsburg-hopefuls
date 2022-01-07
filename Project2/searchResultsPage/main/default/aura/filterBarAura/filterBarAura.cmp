@@ -1,4 +1,7 @@
-<aura:component implements="flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes" access="global">
+<aura:component
+    implements="forceCommunity:availableForAllPageTypes, flexiPage:availableForAllPageTypes"
+    access="global"
+>
     <lightning:messageChannel type="Filter__c" aura:id="Filter" />
 
     <aura:attribute
