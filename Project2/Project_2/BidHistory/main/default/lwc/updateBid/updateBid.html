@@ -1,0 +1,15 @@
+<template>
+	<lightning-card title="Submit Your Bid" icon-name="standard:contact">
+			<div class="slds-p-around_small">
+					<lightning-record-edit-form object-api-name="Bid__c" layout-type="compact" onsuccess={handleSuccess}>
+							<lightning-input-field field-name="Auction__c" value={auctionId} variant="label-stacked" disabled>
+							</lightning-input-field>
+							<lightning-input-field field-name="Contact__c" value={contactId} variant="label-stacked" disabled>
+							</lightning-input-field>
+							<lightning-input-field field-name="Price__c"></lightning-input-field>
+							<lightning-button type="submit" name="update" variant="brand" label="Submit Bid"
+									class="slds-m-top_small"></lightning-button>
+					</lightning-record-edit-form>
+			</div>
+	</lightning-card>
+</template>
