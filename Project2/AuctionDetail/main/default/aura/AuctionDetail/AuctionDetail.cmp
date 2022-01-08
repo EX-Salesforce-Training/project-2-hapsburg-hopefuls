@@ -3,10 +3,14 @@
     access="global"
     controller="AuctionDetailApexController"
 >
+    <lightning:messageChannel type="modalChannel__c" aura:id="modalChannel" />
+
+    <aura:attribute name="User" type="Map" />
     <aura:attribute name="Auction" type="Map" />
     <aura:attribute name="highestBid" type="Integer" />
     <aura:attribute name="numberOfBids" type="Integer" />
     <aura:attribute name="nextHighestBid" type="Integer" />
+    <aura:attribute name="url" type="String" />
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
 
     <div class="slds-grid slds-wrap">
@@ -15,21 +19,25 @@
             <lightning:formattedRichText value="{!v.Auction.Image__c}" />
         </div>
         <div class="slds-col slds-m-left_large slds-size_5-of-12 slds-grid slds-grid_vertical container">
-            <div class="info-div"><strong>{!v.Auction.Description__c}</strong></div>
-            <div class="info-div">Condition: {!v.Auction.Condition__c}</div>
+            <div class="info-div1"><strong>{!v.Auction.Description__c}</strong></div>
+            <div class="info-div2">Condition: {!v.Auction.Condition__c}</div>
             <div class="info-div slds-grid">
                 <div class="slds-col slds-grid slds-grid_vertical container slds-grid_vertical-align-center">
                     <p class="bid-price slds-m-around_x-small">Current Bid: US ${!v.highestBid}</p>
-                    <input class="slds-m-around_xx-small" type="text" placeholder="Bid Amount" />
+                    <input class="slds-m-around_xx-small input-text" type="text" placeholder="Bid Amount" />
                     <p class="next-price slds-m-around_x-small">Enter US ${!v.nextHighestBid} or more</p>
                 </div>
                 <div class="slds-col slds-grid slds-grid_vertical container">
-                    <a class="slds-m-around_xx-small" href="">[{!v.numberOfBids} bids]</a>
-                    <button class="slds-m-around_xx-small">Place Bid</button>
-                    <button class="slds-m-around_xx-small">WatchList (Coming soon)</button>
+                    <a href="{!'/s/auction/related/' + v.recordId + '/Bids__r'}" class="slds-m-around_xx-small"
+                        >[{!v.numberOfBids} bids]</a
+                    >
+                    <button class="slds-m-around_xx-small button" onclick="{!c.handleBid}">Place Bid</button>
+                    <button class="slds-m-around_xx-small button">WatchList (Coming soon)</button>
                 </div>
             </div>
-            <div class="info-div"></div>
+            <div class="slds-col slds-m-left_x-large info-div">
+                <p>Shipping: + US ${!v.Auction.Shipping_Cost__c}</p>
+            </div>
         </div>
     </div>
 </aura:component>

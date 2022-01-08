@@ -1,6 +1,8 @@
-<aura:component controller="BidHistoryController" implements="flexipage:availableForAllPageTypes, force:hasRecordId, forceCommunity:availableForAllPageTypes" access="global">
-    <lightning:messageChannel type="SampleMessageChannel__c" aura:id="SampleMessageChannel" onMessage="{!c.handleMessage}" scope="APPLICATION" />
-
+<aura:component
+    controller="BidHistoryController"
+    implements="flexipage:availableForAllPageTypes, force:hasRecordId, forceCommunity:availableForAllPageTypes"
+    access="global"
+>
     <aura:attribute name="data" type="Object" />
     <aura:attribute name="columns" type="List" />
     <aura:attribute name="recordId" type="Id" />
@@ -8,9 +10,13 @@
     <lightning:card title="BidHistory">
         <div class="slds-var-p-around_small">
             {!v.recordId}
-            <lightning:datatable recordID="{!v.recordId}" data="{!v.data }" columns="{! v.columns }" keyField="id" hideCheckboxColumn="true" />
+            <lightning:datatable
+                recordID="{!v.recordId}"
+                data="{!v.data }"
+                columns="{! v.columns }"
+                keyField="id"
+                hideCheckboxColumn="true"
+            />
         </div>
     </lightning:card>
-
-
 </aura:component>

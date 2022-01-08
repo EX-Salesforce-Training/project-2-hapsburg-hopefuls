@@ -7,6 +7,11 @@ public with sharing class AuctionDetailApexController {
     }
 
     @AuraEnabled
+    public static Contact getUser(){
+        return [SELECT FirstName, LastName, Email FROM Contact WHERE Email =: UserInfo.getUserEmail() LIMIT 1];
+    }
+
+    @AuraEnabled
     public static List<Bid__c> getBids(String recId){
         return [SELECT Price__c FROM Bid__c WHERE Auction__c =: recId];
     }

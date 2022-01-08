@@ -18,7 +18,6 @@
     <aura:attribute name="value" type="String" default="option1" />
 
     <lightning:card title="Filter">
-        <a onclick="{!c.handleTag}" href="/s/profile" value="hello">Push Me</a>
         <lightning:radioGroup
             class="slds-m-left_medium"
             name="radioGroup"

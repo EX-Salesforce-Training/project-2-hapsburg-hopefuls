@@ -10,8 +10,17 @@
     height: 25%;
 }
 
+.THIS .info-div1 {
+    height: 12.5%;
+}
+
+.THIS .info-div2 {
+    height: 12.5%;
+}
+
 .THIS .container {
-    height: 20rem;
+    height: 30rem;
+    font-size: 0.8rem;
 }
 
 .THIS .header {
@@ -24,4 +33,14 @@
 
 .THIS .next-price {
     margin-right: 1rem;
+}
+
+.THIS .input-text {
+    height: 2.5rem;
+    border-radius: 4%;
+}
+
+.THIS .button {
+    border-radius: 20px;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
