@@ -17,11 +17,12 @@ export default class SearchResultsCard extends LightningElement {
     @track searchTerm;
 
     connectedCallback() {
-        this.test = sessionStorage.getItem("SearchResult");
+        this.searchTerm = sessionStorage.getItem("SearchResult");
         let results = getSearchResults({ searchTerm: this.searchTerm });
         results.then((res) => {
             for (let i = 0; i < Object.keys(res).length; i++) {
                 const newObj = Object.assign({ display: true }, res[i]);
+                newObj.url = "auction/" + res[i].Id;
                 this.displayCards.push(newObj);
             }
             console.log(this.displayCards);

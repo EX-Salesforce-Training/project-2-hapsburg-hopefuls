@@ -1,2 +1,27 @@
-.THIS {
+.THIS .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.THIS .info-div {
+    height: 25%;
+}
+
+.THIS .container {
+    height: 20rem;
+}
+
+.THIS .header {
+    font-size: xx-large;
+}
+
+.THIS .bid-price {
+    margin-right: 11rem;
+}
+
+.THIS .next-price {
+    margin-right: 1rem;
 }

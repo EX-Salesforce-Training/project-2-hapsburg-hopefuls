@@ -812,10 +812,10 @@
   "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default": {
     "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default",
     "isDirectory": true,
-    "size": 512,
-    "modifiedTime": 1641321584000,
-    "changeTime": 1641321585393,
-    "contentHash": "da0705889fa29c41d1787d8f657b92c11ca15bdd",
+    "size": 320,
+    "modifiedTime": 1641578557000,
+    "changeTime": 1641578559268,
+    "contentHash": "ea3d0d08dd1765be0dc707bc060a0f2a0154b29d",
     "state": "u",
     "package": "basePackage",
     "deferContentHash": true
@@ -841,35 +841,16 @@
     "package": "basePackage",
     "metadataType": "CustomApplication"
   },
-  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/aura": {
-    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/aura",
-    "isDirectory": true,
-    "size": 96,
-    "modifiedTime": 1641143740000,
-    "changeTime": 1641143740230,
-    "contentHash": "71c20a341bfe32aa5cd5b4384e94f942bab6a7d3",
-    "state": "u",
-    "package": "basePackage"
-  },
-  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/contentassets": {
-    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/contentassets",
-    "isDirectory": true,
-    "size": 64,
-    "modifiedTime": 1640815252000,
-    "changeTime": 1640919488033,
-    "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-    "state": "u",
-    "package": "basePackage"
-  },
   "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/flexipages": {
     "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/flexipages",
     "isDirectory": true,
-    "size": 96,
-    "modifiedTime": 1641143882000,
-    "changeTime": 1641143882838,
-    "contentHash": "fc7b58c35a62066507550096bc7e132177d4430d",
+    "size": 128,
+    "modifiedTime": 1641578420000,
+    "changeTime": 1641578420587,
+    "contentHash": "217a3f38269eef47a8073ab90cccca5c13a1b622",
     "state": "u",
-    "package": "basePackage"
+    "package": "basePackage",
+    "deferContentHash": true
   },
   "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/flexipages/Best_Auction_UtilityBar.flexipage-meta.xml": {
     "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/flexipages/Best_Auction_UtilityBar.flexipage-meta.xml",
@@ -885,12 +866,13 @@
   "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/layouts": {
     "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/layouts",
     "isDirectory": true,
-    "size": 160,
-    "modifiedTime": 1640815252000,
-    "changeTime": 1640919488051,
-    "contentHash": "2c619a345c1a3f3835191354ef3c07631562c6c4",
+    "size": 128,
+    "modifiedTime": 1641578557000,
+    "changeTime": 1641578558752,
+    "contentHash": "943a843e790cd2541e5e0e57fb9936208a074779",
     "state": "u",
-    "package": "basePackage"
+    "package": "basePackage",
+    "deferContentHash": true
   },
   "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/layouts/Auction__c-Auction Layout.layout-meta.xml": {
     "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/layouts/Auction__c-Auction Layout.layout-meta.xml",
@@ -914,27 +896,6 @@
     "state": "u",
     "package": "basePackage",
     "metadataType": "Layout"
-  },
-  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/layouts/Contact-Reduced Layout.layout-meta.xml": {
-    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/layouts/Contact-Reduced Layout.layout-meta.xml",
-    "size": 9468,
-    "modifiedTime": 1640906914101,
-    "changeTime": 1640906914101,
-    "contentHash": "e63fccff41f0ba9d8b20f445ee8a6a1e1e00e89a",
-    "isMetadataFile": true,
-    "state": "u",
-    "package": "basePackage",
-    "metadataType": "Layout"
-  },
-  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/lwc": {
-    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/lwc",
-    "isDirectory": true,
-    "size": 128,
-    "modifiedTime": 1641143803000,
-    "changeTime": 1641143803028,
-    "contentHash": "a973ac1b5be0e216b2a2db1b82ae5ba97f4086f4",
-    "state": "u",
-    "package": "basePackage"
   },
   "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/objects": {
     "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/objects",
@@ -1617,37 +1578,6 @@
     "state": "u",
     "package": "basePackage"
   },
-  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/sharingRules": {
-    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/sharingRules",
-    "isDirectory": true,
-    "size": 96,
-    "modifiedTime": 1641143656000,
-    "changeTime": 1641143656892,
-    "contentHash": "b15c1483662bb2e492d6a11fda5485cb5d043c01",
-    "state": "u",
-    "package": "basePackage"
-  },
-  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/sharingRules/Auction__c.sharingRules-meta.xml": {
-    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/sharingRules/Auction__c.sharingRules-meta.xml",
-    "size": 104,
-    "modifiedTime": 1640906914250,
-    "changeTime": 1640906914250,
-    "contentHash": "e0f48a24cd7c3fee1adf87f74a19d2d9b585d1ab",
-    "isMetadataFile": true,
-    "state": "u",
-    "package": "basePackage",
-    "metadataType": "SharingRules"
-  },
-  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/staticresources": {
-    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/staticresources",
-    "isDirectory": true,
-    "size": 64,
-    "modifiedTime": 1640815252000,
-    "changeTime": 1640919488080,
-    "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-    "state": "u",
-    "package": "basePackage"
-  },
   "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/tabs": {
     "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/tabs",
     "isDirectory": true,
@@ -1680,38 +1610,6 @@
     "package": "basePackage",
     "metadataType": "CustomTab"
   },
-  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/topicsForObjects": {
-    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/topicsForObjects",
-    "isDirectory": true,
-    "size": 128,
-    "modifiedTime": 1641143781000,
-    "changeTime": 1641143781157,
-    "contentHash": "41c480fc2e0c0dc08108abe80a078b58691de535",
-    "state": "u",
-    "package": "basePackage"
-  },
-  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/topicsForObjects/Auction__c.topicsForObjects-meta.xml": {
-    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/topicsForObjects/Auction__c.topicsForObjects-meta.xml",
-    "size": 211,
-    "modifiedTime": 1640906914309,
-    "changeTime": 1640906914309,
-    "contentHash": "087e9ea61a3b057f1da8b1f61e06361562a10bf7",
-    "isMetadataFile": true,
-    "state": "u",
-    "package": "basePackage",
-    "metadataType": "TopicsForObjects"
-  },
-  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/topicsForObjects/Bid__c.topicsForObjects-meta.xml": {
-    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/topicsForObjects/Bid__c.topicsForObjects-meta.xml",
-    "size": 207,
-    "modifiedTime": 1640906914311,
-    "changeTime": 1640906914311,
-    "contentHash": "a6be0c0434c9191bc51350943b72c45ad027aa0f",
-    "isMetadataFile": true,
-    "state": "u",
-    "package": "basePackage",
-    "metadataType": "TopicsForObjects"
-  },
   "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/triggers": {
     "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/triggers",
     "isDirectory": true,
@@ -1736,10 +1634,10 @@
   "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2": {
     "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2",
     "isDirectory": true,
-    "size": 672,
-    "modifiedTime": 1641512679000,
-    "changeTime": 1641513212678,
-    "contentHash": "a3e7cedffa69cf1dec2a6bd2402b6582771c825a",
+    "size": 800,
+    "modifiedTime": 1641578430000,
+    "changeTime": 1641578432063,
+    "contentHash": "06164d8b70ad2dda98ac062881f561583ddbf5a5",
     "state": "u",
     "isWorkspace": true,
     "deferContentHash": true
@@ -1791,10 +1689,10 @@
   },
   "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/searchResultsPage/main/default/lwc/searchResultsCard/searchResultsCard.js": {
     "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/searchResultsPage/main/default/lwc/searchResultsCard/searchResultsCard.js",
-    "size": 1745,
-    "modifiedTime": 1641518915677,
-    "changeTime": 1641518915677,
-    "contentHash": "c4d4f7a20a31f6c3dad17034f188eb5408eb1552",
+    "size": 1816,
+    "modifiedTime": 1641583003300,
+    "changeTime": 1641583003300,
+    "contentHash": "d840ea9a9b4ac421258d49dafce882651038e74a",
     "state": "u",
     "package": "searchResultsPage",
     "metadataType": "LightningComponentBundle",
@@ -1802,10 +1700,10 @@
   },
   "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/searchResultsPage/main/default/lwc/searchResultsCard/searchResultsCard.html": {
     "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/searchResultsPage/main/default/lwc/searchResultsCard/searchResultsCard.html",
-    "size": 1397,
-    "modifiedTime": 1641518358783,
-    "changeTime": 1641518358783,
-    "contentHash": "2ca50a5d3572f23ea94bee38da3d5130e333c716",
+    "size": 1361,
+    "modifiedTime": 1641582922861,
+    "changeTime": 1641582922861,
+    "contentHash": "fc14ca391e53bb175bde5fa60cdf7b218c76a950",
     "state": "u",
     "package": "searchResultsPage",
     "metadataType": "LightningComponentBundle",
@@ -1959,10 +1857,10 @@
   },
   "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/searchResultsPage/main/default/aura/filterBarAura/filterBarAura.cmp": {
     "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/searchResultsPage/main/default/aura/filterBarAura/filterBarAura.cmp",
-    "size": 1029,
-    "modifiedTime": 1641518493846,
-    "changeTime": 1641518493846,
-    "contentHash": "d1b3b0b5a8ad202d557c774b88a29a4ef4a1b806",
+    "size": 1039,
+    "modifiedTime": 1641575018585,
+    "changeTime": 1641575019779,
+    "contentHash": "efda1f66703cb25798c77eb286cbacca33e93784",
     "state": "u",
     "package": "searchResultsPage",
     "metadataType": "AuraDefinitionBundle",
@@ -2096,9 +1994,9 @@
   "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/headerBar/main/default/lwc/navBar/navBar.html": {
     "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/headerBar/main/default/lwc/navBar/navBar.html",
     "size": 2387,
-    "modifiedTime": 1641518289407,
-    "changeTime": 1641518289407,
-    "contentHash": "a0f478adbfa7d0bed0463818782098e31f3c7387",
+    "modifiedTime": 1641582745024,
+    "changeTime": 1641582745024,
+    "contentHash": "e1fa33ff83eca495511c5012d5443ab24cb67ce5",
     "state": "u",
     "package": "headerBar",
     "metadataType": "LightningComponentBundle",
@@ -2137,5 +2035,295 @@
     "package": "headerBar",
     "metadataType": "LightningComponentBundle",
     "deferContentHash": true
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/flexipages/Auction_Record_Page.flexipage-meta.xml": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/basePackage/main/default/flexipages/Auction_Record_Page.flexipage-meta.xml",
+    "size": 4454,
+    "modifiedTime": 1641578417766,
+    "changeTime": 1641578418275,
+    "contentHash": "66c5df75a8a5d94b200d01c78ecd05e7b265d379",
+    "isMetadataFile": true,
+    "state": "u",
+    "package": "basePackage",
+    "metadataType": "FlexiPage"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/",
+    "isDirectory": true,
+    "size": 96,
+    "modifiedTime": 1641575731000,
+    "changeTime": 1641575731367,
+    "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+    "state": "u",
+    "isArtifactRoot": true,
+    "package": "AuctionDetail"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main",
+    "isDirectory": true,
+    "size": 96,
+    "modifiedTime": 1641575733000,
+    "changeTime": 1641575733206,
+    "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+    "state": "u",
+    "package": "AuctionDetail"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default",
+    "isDirectory": true,
+    "size": 160,
+    "modifiedTime": 1641575733000,
+    "changeTime": 1641575733422,
+    "contentHash": "a21009004cd572d890d65233421722a21fcb20a4",
+    "state": "u",
+    "package": "AuctionDetail"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura",
+    "isDirectory": true,
+    "size": 160,
+    "modifiedTime": 1641575733000,
+    "changeTime": 1641575733770,
+    "contentHash": "9acc4031af813262e6aa21a417effa7ffa3b72cc",
+    "state": "u",
+    "package": "AuctionDetail"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail",
+    "isDirectory": true,
+    "size": 352,
+    "modifiedTime": 1641575734000,
+    "changeTime": 1641575734004,
+    "contentHash": "56e822a60edcc1ac330204ddc9a56483cbdd239a",
+    "state": "u",
+    "package": "AuctionDetail"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetail.auradoc": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetail.auradoc",
+    "size": 209,
+    "modifiedTime": 1641575530119,
+    "changeTime": 1641575532301,
+    "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetail.cmp": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetail.cmp",
+    "size": 1963,
+    "modifiedTime": 1641597025300,
+    "changeTime": 1641597025300,
+    "contentHash": "7a9d2634a8c8b1bbc6ff20575114324d98373da6",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle",
+    "deferContentHash": true
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetail.cmp-meta.xml": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetail.cmp-meta.xml",
+    "size": 228,
+    "modifiedTime": 1641575530119,
+    "changeTime": 1641575532314,
+    "contentHash": "2c69a1fc0d5aa5f1cf9983c8f133d9c6e4378789",
+    "isMetadataFile": true,
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetail.css": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetail.css",
+    "size": 359,
+    "modifiedTime": 1641596812283,
+    "changeTime": 1641596812283,
+    "contentHash": "5e62487e887515e41c91bbcf943d8c12fa3aadca",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle",
+    "deferContentHash": true
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetail.design": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetail.design",
+    "size": 40,
+    "modifiedTime": 1641575530120,
+    "changeTime": 1641575532329,
+    "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetail.svg": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetail.svg",
+    "size": 664,
+    "modifiedTime": 1641575530120,
+    "changeTime": 1641575532424,
+    "contentHash": "6a3a9c1d5556db4bde25af9ef0957c47feb17739",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetailController.js": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetailController.js",
+    "size": 1216,
+    "modifiedTime": 1641592035325,
+    "changeTime": 1641592035325,
+    "contentHash": "6943aa869fd87ab08b81465fcb6cf3b96009c2b5",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle",
+    "deferContentHash": true
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetailHelper.js": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetailHelper.js",
+    "size": 45,
+    "modifiedTime": 1641575530121,
+    "changeTime": 1641575532440,
+    "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetailRenderer.js": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/AuctionDetail/AuctionDetailRenderer.js",
+    "size": 50,
+    "modifiedTime": 1641575530121,
+    "changeTime": 1641575532447,
+    "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview",
+    "isDirectory": true,
+    "size": 320,
+    "modifiedTime": 1641575733000,
+    "changeTime": 1641575733968,
+    "contentHash": "d8f44cb30014c31e13f33c904999684641eed4c4",
+    "state": "u",
+    "package": "AuctionDetail"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/Auctionview.app": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/Auctionview.app",
+    "size": 86,
+    "modifiedTime": 1641575530121,
+    "changeTime": 1641575532458,
+    "contentHash": "0130b9659fc91ded3b10519ad29f68312e5f3029",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/Auctionview.app-meta.xml": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/Auctionview.app-meta.xml",
+    "size": 229,
+    "modifiedTime": 1641575530121,
+    "changeTime": 1641575532463,
+    "contentHash": "caab1b45099d981a919c476037708a31f2db84ba",
+    "isMetadataFile": true,
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/Auctionview.auradoc": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/Auctionview.auradoc",
+    "size": 209,
+    "modifiedTime": 1641575530121,
+    "changeTime": 1641575532470,
+    "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/Auctionview.css": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/Auctionview.css",
+    "size": 10,
+    "modifiedTime": 1641575530122,
+    "changeTime": 1641575532475,
+    "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/Auctionview.svg": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/Auctionview.svg",
+    "size": 661,
+    "modifiedTime": 1641575530122,
+    "changeTime": 1641575532482,
+    "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/AuctionviewController.js": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/AuctionviewController.js",
+    "size": 65,
+    "modifiedTime": 1641575530122,
+    "changeTime": 1641575533061,
+    "contentHash": "194250e0c86b1981f8d4e7246be6b32954c6deaf",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/AuctionviewHelper.js": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/AuctionviewHelper.js",
+    "size": 45,
+    "modifiedTime": 1641575530122,
+    "changeTime": 1641575533114,
+    "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/AuctionviewRenderer.js": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/aura/Auctionview/AuctionviewRenderer.js",
+    "size": 50,
+    "modifiedTime": 1641575530122,
+    "changeTime": 1641575533121,
+    "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "AuraDefinitionBundle"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/classes": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/classes",
+    "isDirectory": true,
+    "size": 128,
+    "modifiedTime": 1641585350519,
+    "changeTime": 1641585350519,
+    "contentHash": "42b9a23af3b8e5dea2b1bf5e5d5b0f00ea285957",
+    "state": "u",
+    "package": "AuctionDetail",
+    "deferContentHash": true
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/lwc": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/lwc",
+    "isDirectory": true,
+    "size": 128,
+    "modifiedTime": 1641575716000,
+    "changeTime": 1641575716318,
+    "contentHash": "a973ac1b5be0e216b2a2db1b82ae5ba97f4086f4",
+    "state": "u",
+    "package": "AuctionDetail"
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/classes/AuctionDetailApexController.cls": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/classes/AuctionDetailApexController.cls",
+    "size": 484,
+    "modifiedTime": 1641590888015,
+    "changeTime": 1641590888015,
+    "contentHash": "a1ff98216a8eaf1ad881d73f0934979640585106",
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "ApexClass",
+    "deferContentHash": true
+  },
+  "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/classes/AuctionDetailApexController.cls-meta.xml": {
+    "sourcePath": "/Users/matthewlewandowski/Documents/Code/LWCProjects/project-2-hapsburg-hopefuls/Project2/AuctionDetail/main/default/classes/AuctionDetailApexController.cls-meta.xml",
+    "size": 174,
+    "modifiedTime": 1641585350519,
+    "changeTime": 1641585351073,
+    "contentHash": "d47fd6b1e2658ef3bf1ffd156c6bbfef9f9f3172",
+    "isMetadataFile": true,
+    "state": "u",
+    "package": "AuctionDetail",
+    "metadataType": "ApexClass"
   }
 }

@@ -1,12 +1,11 @@
 {
-<<<<<<< HEAD
     "packageDirectories": [
         {
             "path": "basePackage",
             "package": "Base Package",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
-            "default": false
+            "default": true
         },
         {
             "path": "searchResultsPage",
@@ -26,13 +25,20 @@
             "package": "Header Bar",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
-            "default": true,
+            "default": false,
             "dependencies": [
                 {
                     "package": "Base Package",
                     "versionNumber": "0.1.0.LATEST"
                 }
             ]
+        },
+        {
+            "path": "AuctionDetail",
+            "package": "Auction Detail",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
         }
     ],
     "name": "Project2",
@@ -46,17 +52,7 @@
         "Search Results": "0Ho5f000000PBHgCAO",
         "Search Results@0.1.0-1": "04t5f000000JVRGAA4",
         "Base Package@0.1.0-3": "04t5f000000JWedAAG",
-        "Header Bar": "0Ho5f000000PBIFCA4"
-=======
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
->>>>>>> Yao2
+        "Header Bar": "0Ho5f000000PBIFCA4",
+        "Auction Detail": "0Ho5f000000PBIUCA4"
     }
-  ],
-  "name": "YaoProject2a",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "52.0"
 }

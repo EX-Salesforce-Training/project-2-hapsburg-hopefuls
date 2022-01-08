@@ -1,67 +1,35 @@
-<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
-	<div class="slds-grid" >
-    <div class="slds-size_2-of-5 slds-col" >
-        <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">
-    <lightning:carousel disableAutoRefresh="true" disableAutoScroll="true">
+<aura:component
+    implements="force:hasRecordId, forceCommunity:availableForAllPageTypes"
+    access="global"
+    controller="AuctionDetailApexController"
+>
+    <aura:attribute name="Auction" type="Map" />
+    <aura:attribute name="highestBid" type="Integer" />
+    <aura:attribute name="numberOfBids" type="Integer" />
+    <aura:attribute name="nextHighestBid" type="Integer" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
 
-        <lightning:carouselImage 
-            src="Pb1.png"
-            header = "First Card"
-            description = "First card description."
-            alternativeText = "First card accessible description."
-            href = "https://www.salesforce.com" >
-        </lightning:carouselImage>
-        
-        
-    </lightning:carousel>
-     </div>
-    </div>
-      
-    <div class="slds-col slds-size_3-of-5 slds-text-align_center">   
-        <lightning:card title="Condition:">
-            <aura:set attribute="actions">
-                <lightning:button label="Add to Wichlist"/>
-            </aura:set>
-    <br/>
-    <br/>
-    <div aura:id="container">
-        <div class="slds-col slds-size_1-of-3"/>
-          <div class="slds-col slds-size_1-of-3 text-align_center" >
-            <lightning:button ><lightning:formattedUrl value="https://my/path" label="Bids" tooltip="Go to Bid's History" /></lightning:button>
-          <div class="slds-col slds-size_1-of-3"/>
-       </div>  
-  </div>
-                   
-    <br/>
-
-                <div class="slds-form">  
-                    <lightning:button label="Bid Amount"/>
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col slds-size_1-of-1 header"><strong>{!v.Auction.Auction_Title__c}!!!!!</strong></div>
+        <div class="slds-col slds-size_5-of-12 image">
+            <lightning:formattedRichText value="{!v.Auction.Image__c}" />
+        </div>
+        <div class="slds-col slds-m-left_large slds-size_5-of-12 slds-grid slds-grid_vertical container">
+            <div class="info-div"><strong>{!v.Auction.Description__c}</strong></div>
+            <div class="info-div">Condition: {!v.Auction.Condition__c}</div>
+            <div class="info-div slds-grid">
+                <div class="slds-col slds-grid slds-grid_vertical container slds-grid_vertical-align-center">
+                    <p class="bid-price slds-m-around_x-small">Current Bid: US ${!v.highestBid}</p>
+                    <input class="slds-m-around_xx-small" type="text" placeholder="Bid Amount" />
+                    <p class="next-price slds-m-around_x-small">Enter US ${!v.nextHighestBid} or more</p>
                 </div>
-    <br/>
-    <br/>
-    
-                <p class="slds-p-horizontal_small">
-                    Description:
-                </p>
-             
-                <div class="myapp">
-                    <div class="slds-grid slds-wrap">
-                      <div class="slds-col slds-size--1-of-1 slds-small-size--1-of-2 slds-medium-size--1-of-4">
-                        <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around--x-small">Delivery</div>
-                      </div>
-                      <div class="slds-col slds-size--1-of-1 slds-small-size--1-of-2 slds-medium-size--3-of-4">
-                        <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around--x-small">Shipping</div>
-                      </div>
-                    </div>
-                  </div>
-            
-        </lightning:card>
-    </div>  
-       </div>  
-
-    <!--<lightning-layout-item size="4" padding="around-small">
-                                    <lightning-formatted-rich-text class="Image" value={fieldName.value}>
-                                    </lightning-formatted-rich-text>
-                                </lightning-layout-item>-->
-   
+                <div class="slds-col slds-grid slds-grid_vertical container">
+                    <a class="slds-m-around_xx-small" href="">[{!v.numberOfBids} bids]</a>
+                    <button class="slds-m-around_xx-small">Place Bid</button>
+                    <button class="slds-m-around_xx-small">WatchList (Coming soon)</button>
+                </div>
+            </div>
+            <div class="info-div"></div>
+        </div>
+    </div>
 </aura:component>

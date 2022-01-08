@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 1659,
+  "serverMaxRevisionCounter": 2842,
   "sourceMembers": {
     "ListView__Auction__c.All": {
       "serverRevisionCounter": 19,
@@ -128,8 +128,8 @@
       "isNameObsolete": false
     },
     "Profile__Admin": {
-      "serverRevisionCounter": 1653,
-      "lastRetrievedFromServer": 1653,
+      "serverRevisionCounter": 2616,
+      "lastRetrievedFromServer": 2616,
       "memberType": "Profile",
       "isNameObsolete": false
     },
@@ -146,10 +146,10 @@
       "isNameObsolete": false
     },
     "Layout__Contact-Reduced Layout": {
-      "serverRevisionCounter": 28,
-      "lastRetrievedFromServer": 28,
+      "serverRevisionCounter": 1666,
+      "lastRetrievedFromServer": 1666,
       "memberType": "Layout",
-      "isNameObsolete": false
+      "isNameObsolete": true
     },
     "CustomObject__Auction__c": {
       "serverRevisionCounter": 17,
@@ -200,32 +200,32 @@
       "isNameObsolete": true
     },
     "LightningComponentBundle__searchResultsCard": {
-      "serverRevisionCounter": 1655,
-      "lastRetrievedFromServer": 1655,
+      "serverRevisionCounter": 2167,
+      "lastRetrievedFromServer": 2167,
       "memberType": "LightningComponentBundle",
       "isNameObsolete": false
     },
     "LightningComponentResource__searchResultsCard/searchResultsCard.js-meta.xml": {
-      "serverRevisionCounter": 1656,
-      "lastRetrievedFromServer": 1656,
+      "serverRevisionCounter": 2168,
+      "lastRetrievedFromServer": 2168,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__searchResultsCard/searchResultsCard.css": {
-      "serverRevisionCounter": 1657,
-      "lastRetrievedFromServer": 1657,
+      "serverRevisionCounter": 2169,
+      "lastRetrievedFromServer": 2169,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__searchResultsCard/searchResultsCard.js": {
-      "serverRevisionCounter": 1658,
-      "lastRetrievedFromServer": 1658,
+      "serverRevisionCounter": 2170,
+      "lastRetrievedFromServer": 2170,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__searchResultsCard/searchResultsCard.html": {
-      "serverRevisionCounter": 1659,
-      "lastRetrievedFromServer": 1659,
+      "serverRevisionCounter": 2171,
+      "lastRetrievedFromServer": 2171,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
@@ -350,80 +350,80 @@
       "isNameObsolete": false
     },
     "AuraDefinitionBundle__filterBarAura": {
-      "serverRevisionCounter": 1629,
-      "lastRetrievedFromServer": 1629,
+      "serverRevisionCounter": 1672,
+      "lastRetrievedFromServer": 1672,
       "memberType": "AuraDefinitionBundle",
       "isNameObsolete": false
     },
     "AuraDefinition__filterBarAura/filterBarAura.cmp": {
-      "serverRevisionCounter": 1630,
-      "lastRetrievedFromServer": 1630,
+      "serverRevisionCounter": 1673,
+      "lastRetrievedFromServer": 1673,
       "memberType": "AuraDefinition",
       "isNameObsolete": false
     },
     "AuraDefinition__filterBarAura/filterBarAuraController.js": {
-      "serverRevisionCounter": 1631,
-      "lastRetrievedFromServer": 1631,
+      "serverRevisionCounter": 1674,
+      "lastRetrievedFromServer": 1674,
       "memberType": "AuraDefinition",
       "isNameObsolete": false
     },
     "AuraDefinition__filterBarAura/filterBarAuraHelper.js": {
-      "serverRevisionCounter": 1632,
-      "lastRetrievedFromServer": 1632,
+      "serverRevisionCounter": 1675,
+      "lastRetrievedFromServer": 1675,
       "memberType": "AuraDefinition",
       "isNameObsolete": false
     },
     "AuraDefinition__filterBarAura/filterBarAura.css": {
-      "serverRevisionCounter": 1633,
-      "lastRetrievedFromServer": 1633,
+      "serverRevisionCounter": 1676,
+      "lastRetrievedFromServer": 1676,
       "memberType": "AuraDefinition",
       "isNameObsolete": false
     },
     "AuraDefinition__filterBarAura/filterBarAura.auradoc": {
-      "serverRevisionCounter": 1634,
-      "lastRetrievedFromServer": 1634,
+      "serverRevisionCounter": 1677,
+      "lastRetrievedFromServer": 1677,
       "memberType": "AuraDefinition",
       "isNameObsolete": false
     },
     "AuraDefinition__filterBarAura/filterBarAuraRenderer.js": {
-      "serverRevisionCounter": 1635,
-      "lastRetrievedFromServer": 1635,
+      "serverRevisionCounter": 1678,
+      "lastRetrievedFromServer": 1678,
       "memberType": "AuraDefinition",
       "isNameObsolete": false
     },
     "AuraDefinition__filterBarAura/filterBarAura.design": {
-      "serverRevisionCounter": 1636,
-      "lastRetrievedFromServer": 1636,
+      "serverRevisionCounter": 1679,
+      "lastRetrievedFromServer": 1679,
       "memberType": "AuraDefinition",
       "isNameObsolete": false
     },
     "AuraDefinition__filterBarAura/filterBarAura.svg": {
-      "serverRevisionCounter": 1637,
-      "lastRetrievedFromServer": 1637,
+      "serverRevisionCounter": 1680,
+      "lastRetrievedFromServer": 1680,
       "memberType": "AuraDefinition",
       "isNameObsolete": false
     },
     "LightningComponentBundle__navBar": {
-      "serverRevisionCounter": 1648,
-      "lastRetrievedFromServer": 1648,
+      "serverRevisionCounter": 2152,
+      "lastRetrievedFromServer": 2152,
       "memberType": "LightningComponentBundle",
       "isNameObsolete": false
     },
     "LightningComponentResource__navBar/navBar.html": {
-      "serverRevisionCounter": 1651,
-      "lastRetrievedFromServer": 1651,
+      "serverRevisionCounter": 2155,
+      "lastRetrievedFromServer": 2155,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__navBar/navBar.js-meta.xml": {
-      "serverRevisionCounter": 1649,
-      "lastRetrievedFromServer": 1649,
+      "serverRevisionCounter": 2153,
+      "lastRetrievedFromServer": 2153,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__navBar/navBar.js": {
-      "serverRevisionCounter": 1650,
-      "lastRetrievedFromServer": 1650,
+      "serverRevisionCounter": 2154,
+      "lastRetrievedFromServer": 2154,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
@@ -890,16 +890,16 @@
       "isNameObsolete": false
     },
     "ExperienceBundle__test1": {
-      "serverRevisionCounter": 1608,
-      "lastRetrievedFromServer": 1608,
+      "serverRevisionCounter": 2379,
+      "lastRetrievedFromServer": 2379,
       "memberType": "ExperienceBundle",
       "isNameObsolete": false
     },
     "ExperienceResource__test1/views/home.json": {
-      "serverRevisionCounter": 1175,
-      "lastRetrievedFromServer": 1175,
+      "serverRevisionCounter": 1661,
+      "lastRetrievedFromServer": 1661,
       "memberType": "ExperienceResource",
-      "isNameObsolete": false
+      "isNameObsolete": true
     },
     "NavigationMenu__Default_Navigation": {
       "serverRevisionCounter": 935,
@@ -920,8 +920,8 @@
       "isNameObsolete": false
     },
     "ExperienceResource__test1/config/test.json": {
-      "serverRevisionCounter": 1489,
-      "lastRetrievedFromServer": 1489,
+      "serverRevisionCounter": 2358,
+      "lastRetrievedFromServer": 2358,
       "memberType": "ExperienceResource",
       "isNameObsolete": false
     },
@@ -938,8 +938,8 @@
       "isNameObsolete": false
     },
     "LightningComponentResource__navBar/navBar.css": {
-      "serverRevisionCounter": 1652,
-      "lastRetrievedFromServer": 1652,
+      "serverRevisionCounter": 2156,
+      "lastRetrievedFromServer": 2156,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
@@ -950,9 +950,171 @@
       "isNameObsolete": false
     },
     "ExperienceResource__test1/views/searchResult.json": {
-      "serverRevisionCounter": 1609,
-      "lastRetrievedFromServer": 1609,
+      "serverRevisionCounter": 2356,
+      "lastRetrievedFromServer": 2356,
       "memberType": "ExperienceResource",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Auction_Record_Page": {
+      "serverRevisionCounter": 1665,
+      "lastRetrievedFromServer": 1665,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "ApexClass__ApexClass1": {
+      "serverRevisionCounter": 2184,
+      "lastRetrievedFromServer": 2184,
+      "memberType": "ApexClass",
+      "isNameObsolete": true
+    },
+    "AuraDefinitionBundle__Auctionview": {
+      "serverRevisionCounter": 1688,
+      "lastRetrievedFromServer": 1688,
+      "memberType": "AuraDefinitionBundle",
+      "isNameObsolete": false
+    },
+    "AuraDefinitionBundle__AuctionDetail": {
+      "serverRevisionCounter": 2834,
+      "lastRetrievedFromServer": 2834,
+      "memberType": "AuraDefinitionBundle",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__Auctionview/Auctionview.app": {
+      "serverRevisionCounter": 1689,
+      "lastRetrievedFromServer": 1689,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__Auctionview/AuctionviewController.js": {
+      "serverRevisionCounter": 1690,
+      "lastRetrievedFromServer": 1690,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__Auctionview/AuctionviewHelper.js": {
+      "serverRevisionCounter": 1691,
+      "lastRetrievedFromServer": 1691,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__Auctionview/Auctionview.css": {
+      "serverRevisionCounter": 1692,
+      "lastRetrievedFromServer": 1692,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__Auctionview/Auctionview.auradoc": {
+      "serverRevisionCounter": 1693,
+      "lastRetrievedFromServer": 1693,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__Auctionview/AuctionviewRenderer.js": {
+      "serverRevisionCounter": 1694,
+      "lastRetrievedFromServer": 1694,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__Auctionview/Auctionview.svg": {
+      "serverRevisionCounter": 1695,
+      "lastRetrievedFromServer": 1695,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__AuctionDetail/AuctionDetail.cmp": {
+      "serverRevisionCounter": 2835,
+      "lastRetrievedFromServer": 2835,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__AuctionDetail/AuctionDetailController.js": {
+      "serverRevisionCounter": 2836,
+      "lastRetrievedFromServer": 2836,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__AuctionDetail/AuctionDetailHelper.js": {
+      "serverRevisionCounter": 2837,
+      "lastRetrievedFromServer": 2837,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__AuctionDetail/AuctionDetail.css": {
+      "serverRevisionCounter": 2838,
+      "lastRetrievedFromServer": 2838,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__AuctionDetail/AuctionDetail.auradoc": {
+      "serverRevisionCounter": 2839,
+      "lastRetrievedFromServer": 2839,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__AuctionDetail/AuctionDetailRenderer.js": {
+      "serverRevisionCounter": 2840,
+      "lastRetrievedFromServer": 2840,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__AuctionDetail/AuctionDetail.design": {
+      "serverRevisionCounter": 2841,
+      "lastRetrievedFromServer": 2841,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__AuctionDetail/AuctionDetail.svg": {
+      "serverRevisionCounter": 2842,
+      "lastRetrievedFromServer": 2842,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "ExperienceResource__test1/routes/auctionDetail.json": {
+      "serverRevisionCounter": 2046,
+      "lastRetrievedFromServer": 2046,
+      "memberType": "ExperienceResource",
+      "isNameObsolete": false
+    },
+    "ExperienceResource__test1/views/auctionList.json": {
+      "serverRevisionCounter": 2052,
+      "lastRetrievedFromServer": 2052,
+      "memberType": "ExperienceResource",
+      "isNameObsolete": false
+    },
+    "ExperienceResource__test1/routes/auctionList.json": {
+      "serverRevisionCounter": 2053,
+      "lastRetrievedFromServer": 2053,
+      "memberType": "ExperienceResource",
+      "isNameObsolete": false
+    },
+    "ExperienceResource__test1/views/auctionRelatedList.json": {
+      "serverRevisionCounter": 2059,
+      "lastRetrievedFromServer": 2059,
+      "memberType": "ExperienceResource",
+      "isNameObsolete": false
+    },
+    "ExperienceResource__test1/routes/auctionRelatedList.json": {
+      "serverRevisionCounter": 2060,
+      "lastRetrievedFromServer": 2060,
+      "memberType": "ExperienceResource",
+      "isNameObsolete": false
+    },
+    "ExperienceResource__test1/views/auctionDetail.json": {
+      "serverRevisionCounter": 2380,
+      "lastRetrievedFromServer": 2380,
+      "memberType": "ExperienceResource",
+      "isNameObsolete": false
+    },
+    "ApexClass__AuctionDetailController": {
+      "serverRevisionCounter": 2262,
+      "lastRetrievedFromServer": 2262,
+      "memberType": "ApexClass",
+      "isNameObsolete": true
+    },
+    "ApexClass__AuctionDetailApexController": {
+      "serverRevisionCounter": 2617,
+      "lastRetrievedFromServer": 2617,
+      "memberType": "ApexClass",
       "isNameObsolete": false
     }
   }
