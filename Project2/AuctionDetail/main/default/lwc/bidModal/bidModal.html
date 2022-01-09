@@ -1,5 +1,5 @@
 <template>
-    <template if:true={test}>
+    <template if:true={displayModal}>
         <section
             role="dialog"
             tabindex="-1"
@@ -8,34 +8,50 @@
             class="slds-modal slds-fade-in-open"
         >
             <div class="slds-modal__container">
-                <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse">
-                    <svg class="slds-button__icon slds-button__icon_large" aria-hidden="true">
-                        <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close"></use>
-                    </svg>
-                    <span class="slds-assistive-text">Cancel and close</span>
-                </button>
                 <div
                     class="slds-modal__content slds-p-around_medium slds-modal__content_headless"
                     id="modal-content-id-1"
                 >
-                    <p>
-                        Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt aute id consequat
-                        veniam incididunt duis in sint irure nisi. Mollit officia cillum Lorem ullamco minim nostrud
-                        elit officia tempor esse quis. Cillum sunt ad dolore quis aute consequat ipsum magna
-                        exercitation reprehenderit magna. Tempor cupidatat consequat elit dolor adipisicing.
-                    </p>
-                    <p>
-                        Dolor eiusmod sunt ex incididunt cillum quis nostrud velit duis sit officia. Lorem aliqua enim
-                        laboris do dolor eiusmod officia. Mollit incididunt nisi consectetur esse laborum eiusmod
-                        pariatur proident. Eiusmod et adipisicing culpa deserunt nostrud ad veniam nulla aute est.
-                        Labore esse esse cupidatat amet velit id elit consequat minim ullamco mollit enim excepteur ea.
-                    </p>
+                    <div>
+                        <div class="slds-grid slds-grid_vertical">
+                            <div class="slds--around_medium">
+                                <div>
+                                    <strong class="slds-text-heading_medium">US ${highestBid}</strong> + ${shippingCost}
+                                    for shipping
+                                </div>
+                                <div>{numberOfBids} Bids</div>
+                            </div>
+                        </div>
+                        <div class="slds-p-top_small slds-p-bottom_small slds-p-top_small second-container">
+                            <div class="slds-m-bottom_small"><strong>Place Your Bid</strong></div>
+                            <div class="slds-grid slds-grid_align-space">
+                                <div class="slds-col">
+                                    <button onclick={placeBidButton} value="1">Bid US ${button1amount}</button>
+                                </div>
+                                <div class="slds-col">
+                                    <button onclick={placeBidButton} value="2">Bid US ${button2amount}</button>
+                                </div>
+                                <div class="slds-col">
+                                    <button onclick={placeBidButton} value="3">Bid US ${button3amount}</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="slds-p-top_small slds-p-bottom_small slds-grid slds-grid_align-space third-container"
+                        >
+                            <div class="slds-col slds-grid slds-grid_vertical-align-center">
+                                <input type="text" placeholder="Enter Custom Bid Price" />
+                            </div>
+                            <div class="slds-col">
+                                <button class="bid-button" onclick={createNewBid}>Bid</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="slds-modal__footer">
                     <button onclick={closeModal} class="slds-button slds-button_neutral" aria-label="Cancel and close">
                         Cancel
                     </button>
-                    <button class="slds-button slds-button_brand">Bid</button>
                 </div>
             </div>
         </section>

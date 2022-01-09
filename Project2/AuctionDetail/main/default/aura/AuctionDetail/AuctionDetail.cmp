@@ -5,6 +5,10 @@
 >
     <lightning:messageChannel type="modalChannel__c" aura:id="modalChannel" />
 
+    <aura:attribute name="newBid" type="Object" />
+    <aura:attribute name="simpleNewBid" type="Object" />
+    <aura:attribute name="newBidError" type="String" />
+
     <aura:attribute name="User" type="Map" />
     <aura:attribute name="Auction" type="Map" />
     <aura:attribute name="highestBid" type="Integer" />
@@ -12,6 +16,14 @@
     <aura:attribute name="nextHighestBid" type="Integer" />
     <aura:attribute name="url" type="String" />
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <force:recordData
+        aura:id="bidRecordCreator"
+        fields="Price__c, Contact__c, Auction__c"
+        targetRecord="{!v.newBid}"
+        targetFields="{!v.simpleNewBid}"
+        targetError="{!v.newBidError}"
+    />
 
     <div class="slds-grid slds-wrap">
         <div class="slds-col slds-size_1-of-1 header"><strong>{!v.Auction.Auction_Title__c}!!!!!</strong></div>
@@ -24,11 +36,20 @@
             <div class="info-div slds-grid">
                 <div class="slds-col slds-grid slds-grid_vertical container slds-grid_vertical-align-center">
                     <p class="bid-price slds-m-around_x-small">Current Bid: US ${!v.highestBid}</p>
-                    <input class="slds-m-around_xx-small input-text" type="text" placeholder="Bid Amount" />
+                    <span onkeypress="{!c.handleSaveBid}">
+                        <lightning:input
+                            aura:id="bidField"
+                            placeholder="Bid Amount"
+                            value="{!v.simpleNewBid.Price__c}"
+                        />
+                    </span>
                     <p class="next-price slds-m-around_x-small">Enter US ${!v.nextHighestBid} or more</p>
                 </div>
                 <div class="slds-col slds-grid slds-grid_vertical container">
-                    <a href="{!'/s/auction/related/' + v.recordId + '/Bids__r'}" class="slds-m-around_xx-small"
+                    <a
+                        onclick="{!c.handleRedirect}"
+                        href="{!'/s/auction/related/' + v.recordId + '/Bids__r'}"
+                        class="slds-m-around_xx-small"
                         >[{!v.numberOfBids} bids]</a
                     >
                     <button class="slds-m-around_xx-small button" onclick="{!c.handleBid}">Place Bid</button>

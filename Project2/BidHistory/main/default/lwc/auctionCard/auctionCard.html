@@ -1,8 +1,9 @@
 <template>
+    <a href={returnUrl}>&lt;-- Back to Auction</a>
     <lightning-card title="Auction" icon-name="standard:account">
         <div class="slds-p-horizontal_small">
-            <lightning-record-view-form record-id={recordId} object-api-name="Auction__c" density="compact"
-                ><strong> <lightning-output-field field-name={Auction_Title}></lightning-output-field></strong>
+            <lightning-record-view-form record-id={record} object-api-name="Auction__c" density="compact">
+                <strong><lightning-output-field field-name={Auction_Title}></lightning-output-field></strong>
                 <lightning-output-field field-name={Image} style="width: 300px; height: 200px"></lightning-output-field>
                 <lightning-output-field field-name={Shipping_Cost}></lightning-output-field>
             </lightning-record-view-form>

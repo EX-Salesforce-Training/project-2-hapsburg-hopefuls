@@ -9,7 +9,6 @@
     <aura:handler name="init" value="{! this }" action="{! c.doInit }" />
     <lightning:card title="BidHistory">
         <div class="slds-var-p-around_small">
-            {!v.recordId}
             <lightning:datatable
                 recordID="{!v.recordId}"
                 data="{!v.data }"

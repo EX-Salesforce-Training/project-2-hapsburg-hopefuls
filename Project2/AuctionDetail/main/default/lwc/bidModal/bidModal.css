@@ -1,0 +1,16 @@
+.third-container {
+    background-color: rgba(211, 211, 211, 0.226);
+}
+
+.second-container {
+    background-color: rgba(211, 211, 211, 0.226);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+}
+
+.button-container {
+    height: 5rem;
+}
+
+.bid-button {
+    padding: 0.15rem 4rem 0.15rem 4rem;
+}
