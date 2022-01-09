@@ -143,7 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
@@ -153,14 +153,15 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Auction</label>
+    <label>Order (Customer)</label>
     <nameField>
-        <displayFormat>A-{0000}</displayFormat>
-        <label>Auction ID</label>
+        <displayFormat>O-{0000}</displayFormat>
+        <label>Order Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Auctions</pluralLabel>
+    <pluralLabel>Orders</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>
 </CustomObject>
