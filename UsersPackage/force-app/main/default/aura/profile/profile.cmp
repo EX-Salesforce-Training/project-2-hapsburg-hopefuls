@@ -1,10 +1,19 @@
 <aura:component implements="forceCommunity:availableForAllPageTypes" controller="ProfileController">
+    <!-- Constant: Vertical Tab Names -->
+    <aura:attribute name="vtab_bids" type="String" default="bids" />
+    <aura:attribute name="vtab_purchases" type="String" default="purchases" />
+    <aura:attribute name="vtab_contact" type="String" default="contact" />
+    <aura:attribute name="vtab_address" type="String" default="address" />
+    <aura:attribute name="vtab_payment" type="String" default="payment" />
+    
     <aura:attribute name="selectedItem" type="String" />
     <aura:attribute name="currentContent" type="String" />
     <aura:attribute name="updatedCount" type="Integer" />
     
     <aura:attribute name="currentProfile" type="Contact" />
     <aura:attribute name="bids" type="Bid__c[]" />
+    
+    <lightning:messageChannel type="selectedVTab__c" aura:id="selectedVTab" />
     
     <aura:handler name="init" value="{!this}" action="{!c.init}" />
     
@@ -17,44 +26,19 @@
                 <lightning:layout>
                     <lightning:layoutItem>
                         <lightning:verticalNavigation selectedItem="{!v.selectedItem}" onselect="{!c.handleSelect}" class="navigation">
-                            <lightning:verticalNavigationSection>
-                                <lightning:verticalNavigationItem label="Summary" name="summary" />
-                                <lightning:verticalNavigationItem label="Recently viewed" name="recently_viewed" />                                
+                            <lightning:verticalNavigationSection>                         
                                 <lightning:verticalNavigationItemBadge
-                                                                       label="Bids/Offers"
-                                                                       name="bids_offers"
+                                                                       label="Bids"
+                                                                       name="{!v.vtab_bids}"
                                                                        badgeCount="{! v.updatedCount }" />
                                 
-                                <lightning:verticalNavigationItem label="Purchase history" name="purchase_history"  />
-                                <lightning:verticalNavigationItem label="Watching" name="watching" />
-                                <lightning:verticalNavigationItem label="Saved searches" name="saved_sellers" />
-                                <lightning:verticalNavigationOverflow>
-                                    <!-- Placeholder: needs selling text and tabbed over items -->
-                                    <lightning:verticalNavigationItem label="Overview" name="selling_overview" />
-                                    <lightning:verticalNavigationItem label="Sell an item" name="selling_sell" />
-                                    <lightning:verticalNavigationItem label="Drafts" name="selling_drafts" />
-                                    <lightning:verticalNavigationItem label="Scheduled" name="selling_scheduled" />
-                                    <lightning:verticalNavigationItem label="Active" name="selling_active" />
-                                    <lightning:verticalNavigationItem label="Sold" name="selling_sold" />
-                                    <lightning:verticalNavigationItem label="Unsold" name="selling_unsold" />
-                                    <lightning:verticalNavigationItem label="Payments" name="selling_payments" />
-                                    <lightning:verticalNavigationItem label="Shipping labels" name="selling_shipping_labels" />
-                                </lightning:verticalNavigationOverflow>
-                                <lightning:verticalNavigationItem label="Collection beta" name="collection" />
+                                <lightning:verticalNavigationItem label="Purchase history" name="{!v.vtab_purchases}"  />
                             </lightning:verticalNavigationSection>    
                         </lightning:verticalNavigation>
                     </lightning:layoutItem>
-                    <lightning:layoutItem padding="around-medium">
-                        <p>You Are Viewing: {! v.currentContent } </p>
-                        <c:profileInnerComponent />
-                        <aura:iteration items="{!v.bids}" var="bid">
-                            <lightning:card footer="{!'$' + bid.Price__c}" title="{!bid.Auction__r.Auction_Title__c}">
-                                <aura:set attribute="actions">
-                                    <lightning:button label="Bid"/>
-                                </aura:set>
-                                <lightning:formattedRichText value="{!bid.Auction__r.Image__c}" />
-                            </lightning:card>
-                        </aura:iteration>
+                    <lightning:layoutItem>
+                        <!-- LWC -->
+                        <c:profileInnerActivity />
                     </lightning:layoutItem>
                 </lightning:layout>
             </div>
@@ -62,9 +46,24 @@
         </lightning:tab>
         <lightning:tab label="Messages">
             <!-- Placeholder -->
+            Coming Soon
         </lightning:tab>
         <lightning:tab label="Account">
-            Sample Content Two
+            <lightning:layout>
+            	<lightning:layoutItem>
+                    <lightning:verticalNavigation selectedItem="{!v.selectedItem}" onselect="{!c.handleSelect}" class="navigation">
+                    	<lightning:verticalNavigationSection>
+                            <lightning:verticalNavigationItem label="Contact" name="{!v.vtab_contact}" />
+                            <lightning:verticalNavigationItem label="Addresses" name="{!v.vtab_address}" />
+                            <lightning:verticalNavigationItem label="Payment" name="{!v.vtab_payment}" />
+                        </lightning:verticalNavigationSection>
+                    </lightning:verticalNavigation>
+                </lightning:layoutItem>
+                <lightning:layoutItem>
+                    <!-- LWC -->
+                    <c:profileInnerContact />
+                </lightning:layoutItem>
+            </lightning:layout>
         </lightning:tab>
     </lightning:tabset>
 </aura:component>

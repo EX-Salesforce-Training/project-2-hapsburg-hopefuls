@@ -1,0 +1,7 @@
+<template>
+    <template if:true={profile} >
+        <div>{profile.Name}</div>
+        <lightning-record-form record-id={profile.Id} object-api-name={profileObj} fields={fields} columns="2" mode="view">
+        </lightning-record-form>
+    </template>
+</template>

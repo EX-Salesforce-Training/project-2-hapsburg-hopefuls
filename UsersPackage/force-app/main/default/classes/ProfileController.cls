@@ -7,18 +7,18 @@ public without sharing class ProfileController {
     
 	@AuraEnabled(cacheable=true)
     public static Contact getProfile() {
-        User user = [SELECT contactId FROM User WHERE Id=:UserInfo.getUserId()];
-        Contact contact = [SELECT name, email FROM Contact WHERE Id=:user.ContactId];
-        //Contact contact = [SELECT name FROM Contact];
+        List<String> fields = new List<String>{'Name'};
+        Contact contact = getProfileWithFields(fields);
         return contact;
     }
     
     @AuraEnabled(cacheable=true)
-    public static List<Bid__c> getBids() {
-        User user = [SELECT contactId FROM User WHERE Id=:UserInfo.getUserId()];
-        Contact contact = [SELECT name FROM Contact WHERE Id=:user.ContactId];
-        Bid__c[] bids = [SELECT Auction__c, Auction__r.Auction_Title__c, Auction__r.Image__c, Price__c, Contact__c FROM Bid__c WHERE Contact__c=:contact.Id];
-        //Bid__c[] bids = [SELECT Auction__c, Auction__r.Auction_Title__c, Auction__r.Image__c, Price__c, Contact__c FROM Bid__c];
-        return bids;
+    public static Contact getProfileWithFields(List<String> fields) {
+        // Debug SOQL statement as Non-customer User
+        // String soql = 'SELECT ' + String.escapeSingleQuotes(String.join(fields, ', ')) + ' FROM Contact LIMIT 1';
+        Id userContact = getUser().ContactId;
+        String soql = 'SELECT ' + String.escapeSingleQuotes(String.join(fields, ', ')) + ' FROM Contact WHERE Id=:userContact';
+        Contact contact = Database.query(soql);
+        return contact;
     }
 }

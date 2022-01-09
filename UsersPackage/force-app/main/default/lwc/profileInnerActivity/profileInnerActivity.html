@@ -1,0 +1,34 @@
+<template>
+    <template if:true={isVTabBids}>
+        <template for:each={bids} for:item="bid" for:index="bidIndex">
+            <article key={bid.Id} index={bidIndex} class="slds-card">
+                <div class="slds-card__header slds-grid">
+                    <div class="slds-col slds-size_1-of-6 slds-var-p-around_large">
+                        <div class="slds-box square">
+                            <lightning-formatted-rich-text value={bid.Auction__r.Image__c}>
+                            </lightning-formatted-rich-text>
+                        </div>
+                    </div>
+                    <div class="slds-col slds-size_3-of-6">
+                        <a href={bid.url} class="slds-card__header-link slds-truncate">
+                            <p>{bid.Auction__r.Auction_Title__c}</p>
+                            <p>({bid.Id})</p>
+                            <p>Your bid: ${bid.CustomerBid}</p>
+                        </a>
+                    </div>
+                    <div class="slds-col slds-size_1-of-6">
+                        <a class="slds-card__header-link slds-truncate">
+                            <p>Current Max Bid: ${bid.MaxBid}</p>
+                        </a>
+                    </div>
+                    <div class="slds-col slds-size_1-of-6">
+                        <button class="slds-button slds-button_brand slds-button_stretch slds-float_right">Increase
+                            bid</button>
+                        <button class="slds-button slds-button_neutral slds-button_stretch slds-float_right">Contact
+                            seller</button>
+                    </div>
+                </div>
+            </article>
+        </template>
+    </template>
+</template>
