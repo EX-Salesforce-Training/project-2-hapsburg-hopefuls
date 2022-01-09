@@ -16,6 +16,7 @@ package.xml
 **/aura/Harness
 **/main/default/profiles
 **/main/default/layouts
+**/main/default/objects
 
 # experiencecloud
 **/main/default/profile
