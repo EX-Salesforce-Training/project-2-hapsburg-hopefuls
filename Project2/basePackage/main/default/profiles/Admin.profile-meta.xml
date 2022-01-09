@@ -45,6 +45,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Auction__c.Order__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Auction__c.Product_Tags__c</field>
         <readable>true</readable>
     </fieldPermissions>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
-    <masterLabel>Modal</masterLabel>
-    <isExposed>true</isExposed>
     <description>Message Channel to pass modal data</description>
+    <isExposed>true</isExposed>
     <lightningMessageFields>
-        <fieldName>modalData</fieldName>
         <description>This is the boolean to show the modal</description>
+        <fieldName>modalData</fieldName>
     </lightningMessageFields>
+    <masterLabel>Modal</masterLabel>
 </LightningMessageChannel>

@@ -1,5 +1,5 @@
 <aura:component
-    implements="force:hasRecordId, forceCommunity:availableForAllPageTypes"
+    implements="force:hasRecordId,forceCommunity:availableForAllPageTypes"
     access="global"
     controller="AuctionDetailApexController"
 >

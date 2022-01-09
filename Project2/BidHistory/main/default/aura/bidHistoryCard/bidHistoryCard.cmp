@@ -1,6 +1,6 @@
 <aura:component
     controller="BidHistoryController"
-    implements="flexipage:availableForAllPageTypes, force:hasRecordId, forceCommunity:availableForAllPageTypes"
+    implements="flexipage:availableForAllPageTypes,force:hasRecordId,forceCommunity:availableForAllPageTypes"
     access="global"
 >
     <aura:attribute name="data" type="Object" />

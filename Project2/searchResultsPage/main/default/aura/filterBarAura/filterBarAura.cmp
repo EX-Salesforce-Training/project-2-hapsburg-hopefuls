@@ -1,5 +1,5 @@
 <aura:component
-    implements="forceCommunity:availableForAllPageTypes, flexiPage:availableForAllPageTypes"
+    implements="forceCommunity:availableForAllPageTypes,flexiPage:availableForAllPageTypes"
     access="global"
 >
     <lightning:messageChannel type="Filter__c" aura:id="Filter" />
