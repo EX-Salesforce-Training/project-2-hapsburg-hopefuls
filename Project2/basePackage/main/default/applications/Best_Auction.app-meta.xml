@@ -17,8 +17,8 @@
     <tabs>Auction__c</tabs>
     <tabs>standard-Product2</tabs>
     <tabs>Bid__c</tabs>
-    <tabs>standard-Order</tabs>
     <tabs>standard-Case</tabs>
+    <tabs>Order__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Best_Auction_UtilityBar</utilityBar>
 </CustomApplication>
