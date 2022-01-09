@@ -1,0 +1,99 @@
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
+
+package.xml
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
+**/__tests__/**
+
+# Exclude from package - manual
+**/main/default/settings
+**/aura/Harness
+**/main/default/profiles
+**/main/default/layouts
+
+# experiencecloud
+**/main/default/profile
+**/staticresources
+**/aura/forgotPassword
+**/aura/loginForm
+**/aura/setExpId
+**/aura/selfRegister
+**/aura/setStartUrl
+**/main/default/components
+**/main/default/pages
+**/main/default/roles
+**/main/default/navigationMenus
+
+# experiencecloud - files
+**/ForgotPasswordController.cls-meta.xml
+**/ForgotPasswordController.cls
+**/LightningForgotPasswordController.cls-meta.xml
+**/LightningForgotPasswordController.cls
+**/LightningSelfRegisterController.cls
+**/LightningSelfRegisterController.cls-meta.xml
+**/LightningForgotPasswordController.cls
+**/ChangePasswordControllerTest.cls-meta.xml
+**/ChangePasswordControllerTest.cls
+**/MyProfilePageController.cls-meta.xml
+**/MyProfilePageController.cls
+**/ForgotPasswordControllerTest.cls-meta.xml
+**/ForgotPasswordControllerTest.cls
+**/MyProfilePageControllerTest.cls-meta.xml
+**/MyProfilePageControllerTest.cls
+**/CommunitiesLoginControllerTest.cls
+**/CommunitiesLoginControllerTest.cls-meta.xml
+**/CommunitiesLandingControllerTest.cls-meta.xml
+**/CommunitiesLandingControllerTest.cls
+**/CommunitiesLoginController.cls-meta.xml
+**/CommunitiesLoginController.cls
+**/CommunitiesSelfRegControllerTest.cls-meta.xml
+**/CommunitiesSelfRegControllerTest.cls
+**/CommunitiesLandingController.cls-meta.xml
+**/CommunitiesLandingController.cls
+**/CommunitiesSelfRegController.cls-meta.xml
+**/CommunitiesSelfRegController.cls
+**/CommunitiesSelfRegConfirmControllerTest.cls-meta.xml
+**/CommunitiesSelfRegConfirmControllerTest.cls
+**/CommunitiesSelfRegConfirmController.cls-meta.xml
+**/CommunitiesSelfRegConfirmController.cls
+**/LightningLoginFormControllerTest.cls-meta.xml
+**/LightningLoginFormControllerTest.cls
+**/SiteLoginController.cls-meta.xml
+**/SiteLoginController.cls
+**/LightningLoginFormController.cls-meta.xml
+**/LightningLoginFormController.cls
+**/LightningSelfRegisterControllerTest.cls-meta.xml
+**/LightningSelfRegisterControllerTest.cls
+**/SiteRegisterController.cls-meta.xml
+**/SiteRegisterController.cls
+**/SiteLoginControllerTest.cls-meta.xml
+**/SiteLoginControllerTest.cls
+**/LightningForgotPasswordControllerTest.cls-meta.xml
+**/LightningForgotPasswordControllerTest.cls
+**/ChangePasswordController.cls-meta.xml
+**/ChangePasswordController.cls
+**/SiteRegisterControllerTest.cls-meta.xml
+**/SiteRegisterControllerTest.cls
+**/Best_Auction1.site-meta.xml
+**/Best_Auction1.site
+**/AppSwitcher.appMenu-meta.xml
+**/Best Auction.network-meta.xml
+**/cbBest_Auction.networkBranding-meta.xml
+**/cbBest_Auction.networkBranding
+**/Default_Navigation.navigationMenu-meta.xml
+**/Best_Auction.site-meta.xml
+**/Default_Best Auction.audience-meta.xml
+
+# test
+**/aura/TestAuction
+**/aura/TestBid
+**/aura/TestComponent
+**/aura/TestHeader
+**/aura/TestHome
+**/objects/Bid__c/listViews/All.listView-meta.xml
