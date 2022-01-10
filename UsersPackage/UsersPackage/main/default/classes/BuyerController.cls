@@ -12,7 +12,7 @@ public without sharing class BuyerController {
         
         List<Map<String, Object>> bidsMapList = combineBids(customerBids, maxBids);
         bidsMapList = appendAuctionInfo(bidsMapList);
-        System.debug(bidsMapList);
+        // System.debug(bidsMapList);
         
         return bidsMapList;
     }

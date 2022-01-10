@@ -1,15 +1,13 @@
 @isTest
 public class ProfileControllerTest {
-	/*
+	
     @testSetup
     private static void testSetup() {
-        SObjectType ProfileType = Schema.getGlobalDescribe().get('User');
-        Map<String,Schema.SObjectField> pfields = ProfileType.getDescribe().fields.getMap();
-        // Map<String, Schema.SObjectField> fieldMap = Schema.SObjectType.Account.fields.getMap();
-        for (Schema.SObjectField field : pfields.values()) {
-            System.debug(field);
-        }
-        Profile profile = [SELECT Id FROM Profile WHERE Name='Customer Community User' LIMIT 1];
+        setupCustomerUser();
+    }
+    
+    public static User setupCustomerUser() {
+        Profile profile = [SELECT Id, UserLicense.Name FROM Profile WHERE Name='Customer Community User' LIMIT 1];
         
         Account account = new Account(
         	name = 'Registrants'
@@ -18,17 +16,18 @@ public class ProfileControllerTest {
         
         Contact contact = new Contact(
             FirstName = 'John',
-            LastName = 'Smith'
+            LastName = 'Smith',
+            AccountId = account.id
         );
         insert contact;
         
         User user = new User(
-            Username = 'test@example.com',
+            Username = 'john@example.com',
             ContactId = contact.Id,
             FirstName = 'John',
             LastName = 'Smith',
             Email = 'test@example.com',
-            Alias = 'jsmit',
+            Alias = 'john',
             TimeZoneSidKey = 'America/New_York',
             LocaleSidKey = 'en_US',
             EmailEncodingKey = 'ISO-8859-1',
@@ -36,20 +35,20 @@ public class ProfileControllerTest {
             LanguageLocaleKey = 'en_US'
         );
         insert user;
+        return user;
     }
     
     @isTest
-    private static void getUserTest() {
-        User runAsUser = [Select Id FROM User WHERE Username='test@example.com'];
-        System.debug(runAsUser);
+    private static void getProfileTest() {
+        User runAsUser = [SELECT Id FROM User WHERE Username='john@example.com'];
+        Contact customerContact = [SELECT Name, Id FROM Contact WHERE Name='John Smith'];
         System.runAs(runAsUser) {
-        	User user = ProfileController.getUser();
-            System.debug(user);
+        	Contact contact = ProfileController.getProfile();
+            System.assertEquals(contact, customerContact);
         }
     }
-*/
     
-    private static void discard() {
+    private static void notes() {
         /*
         SObjectType ProfileType = Schema.getGlobalDescribe().get('Profile');
         Map<String,Schema.SObjectField> pfields = ProfileType.getDescribe().fields.getMap();
@@ -68,7 +67,6 @@ public class ProfileControllerTest {
             System.debug(profile);
         }*/
         
-    }
-    
+    } 
     
 }
