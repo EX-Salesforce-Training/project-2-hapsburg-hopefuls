@@ -1,14 +1,14 @@
 {
     "packageDirectories": [
         {
-            "path": "basePackage",
+            "path": "WholeProject/basePackage",
             "package": "Base Package",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "default": true
         },
         {
-            "path": "searchResultsPage",
+            "path": "WholeProject/searchResultsPage",
             "package": "Search Results",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
@@ -21,7 +21,7 @@
             ]
         },
         {
-            "path": "headerBar",
+            "path": "WholeProject/headerBar",
             "package": "Header Bar",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
@@ -34,29 +34,60 @@
             ]
         },
         {
-            "path": "AuctionDetail",
+            "path": "WholeProject/AuctionDetail",
             "package": "Auction Detail",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
-            "default": false
+            "default": false,
+            "dependencies": [
+                {
+                    "package": "Base Package",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
         },
         {
-            "path": "homePage",
+            "path": "WholeProject/homePage",
             "package": "Home Page 2",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
-            "default": false
+            "default": false,
+            "dependencies": [
+                {
+                    "package": "Base Package",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
         },
         {
-            "path": "BidHistory",
+            "path": "WholeProject/BidHistory",
             "package": "Bid History",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
-            "default": false
+            "default": false,
+            "dependencies": [
+                {
+                    "package": "Base Package",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
         },
         {
-            "path": "force-app",
+            "path": "WholeProject/force-app",
             "package": "Profile Page",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "dependencies": [
+                {
+                    "package": "Base Package",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "WholeProject",
+            "package": "Whole Project",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "default": false
@@ -78,6 +109,8 @@
         "Bid History": "0Ho5f000000PBIeCAO",
         "Base Package@0.1.0-4": "04t5f000000Jd27AAC",
         "Home Page 2": "0Ho5f000000PBIyCAO",
-        "Profile Page": "0Ho5f000000PBJ3CAO"
+        "Profile Page": "0Ho5f000000PBJ3CAO",
+        "Whole Project": "0Ho5f000000PBJ8CAO",
+        "Whole Project@0.1.0-1": "04t5f000000JdN0AAK"
     }
 }

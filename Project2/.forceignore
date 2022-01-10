@@ -13,3 +13,4 @@ package.xml
 
 # QOL user customizations
 **\basePackage\main\default\profilePasswordPolicies
+**WholeProject/basePackage/main/default/lwc
