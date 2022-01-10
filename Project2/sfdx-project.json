@@ -5,7 +5,7 @@
             "package": "Base Package",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
-            "default": true
+            "default": false
         },
         {
             "path": "WholeProject/searchResultsPage",
@@ -77,7 +77,7 @@
             "package": "Profile Page",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
-            "default": false,
+            "default": true,
             "dependencies": [
                 {
                     "package": "Base Package",
@@ -112,6 +112,7 @@
         "Profile Page": "0Ho5f000000PBJ3CAO",
         "Whole Project": "0Ho5f000000PBJ8CAO",
         "Whole Project@0.1.0-1": "04t5f000000JdN0AAK",
-        "Whole Project@0.1.0-2": "04t5f000000JeVWAA0"
+        "Whole Project@0.1.0-2": "04t5f000000JeVWAA0",
+        "Whole Project@0.1.0-3": "04t5f000000JeVbAAK"
     }
 }

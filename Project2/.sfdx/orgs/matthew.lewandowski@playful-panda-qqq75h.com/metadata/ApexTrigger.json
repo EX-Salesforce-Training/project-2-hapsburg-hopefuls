@@ -1,0 +1,44 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055f000007wpp1AAA",
+      "createdByName": "Guest Guest",
+      "createdDate": "2022-01-09T23:56:22.000Z",
+      "fileName": "triggers/BidTrigger.trigger",
+      "fullName": "BidTrigger",
+      "id": "01q5f000000aSTAAA2",
+      "lastModifiedById": "0055f000007wpp1AAA",
+      "lastModifiedByName": "Guest Guest",
+      "lastModifiedDate": "2022-01-10T16:46:39.000Z",
+      "manageableState": "installedEditable",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0055f000007woZZAAY",
+      "createdByName": "Matthew Lewandowski",
+      "createdDate": "2022-01-10T17:15:55.000Z",
+      "fileName": "triggers/AuctionTrigger.trigger",
+      "fullName": "AuctionTrigger",
+      "id": "01q5f000000aTfiAAE",
+      "lastModifiedById": "0055f000007woZZAAY",
+      "lastModifiedByName": "Matthew Lewandowski",
+      "lastModifiedDate": "2022-01-10T17:33:45.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0055f000007woZZAAY",
+      "createdByName": "Matthew Lewandowski",
+      "createdDate": "2022-01-10T00:34:10.000Z",
+      "fileName": "triggers/ContactTrigger.trigger",
+      "fullName": "ContactTrigger",
+      "id": "01q5f000000aSXXAA2",
+      "lastModifiedById": "0055f000007wpp1AAA",
+      "lastModifiedByName": "Guest Guest",
+      "lastModifiedDate": "2022-01-10T16:46:39.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    }
+  ]
+}

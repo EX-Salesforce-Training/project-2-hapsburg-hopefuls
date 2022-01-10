@@ -6,5 +6,4 @@ public with sharing class BidHistoryController {
 							   WHERE Auction__c =:auctionId ORDER BY Price__c DESC ];					 
 		return results;
 	}
-			
 }
