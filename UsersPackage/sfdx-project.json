@@ -1,14 +1,14 @@
 {
     "packageDirectories": [
         {
-            "path": "force-app",
+            "path": "UsersPackage",
             "default": true,
             "package": "Users-Package",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "dependencies": [
                 {
-                    "subscriberPackageVersionId": "04t5f000000JWedAAG"
+                    "subscriberPackageVersionId": "04t5f000000Jd6KAAS"
                 }
             ]
         }
@@ -21,6 +21,7 @@
         "Users-Package": "0Ho5f000000Kz9hCAC",
         "Users-Package@0.1.0-1": "04t5f000000mzlxAAA",
         "Users-Package@0.1.0-2": "04t5f000000mzqAAAQ",
-        "Users-Package@0.1.0-3": "04t5f000000n1PEAAY"
+        "Users-Package@0.1.0-3": "04t5f000000n1PEAAY",
+        "Users-Package@0.1.0-4": "04t5f000000n31cAAA"
     }
 }
