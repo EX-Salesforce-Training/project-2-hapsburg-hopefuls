@@ -10,7 +10,7 @@ public class AuctionTriggerHelper {
     
     public static void validateImageField(List<Auction__c> newAuctions) {
         for (Auction__c auction : newAuctions) {
-            if(auction.Image__c.contains('<img src') == false) {
+            if(auction.Image__c != null && auction.Image__c.contains('<img src') == false) {
                 auction.addError('this field must contain an image');
             } 
         }
