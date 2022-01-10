@@ -1,40 +1,40 @@
-import { LightningElement, api } from 'lwc';
+import { LightningElement, api } from "lwc";
 
-import Banner from '@salesforce/resourceUrl/BannerImage';
+import Banner from "@salesforce/resourceUrl/BannerImage";
 
 export default class homeCarousel extends LightningElement {
     @api
-    imgsrc=Banner;
+    imgsrc = Banner;
     @api
-    imgsrc2=Banner;
+    imgsrc2 = Banner;
     @api
-    imgsrc3=Banner;
-    
-    @api 
-    url="https://www.google.com";
-    @api
-    url2="https://www.google.com";
-    @api
-    url3="https://www.google.com";
+    imgsrc3 = Banner;
 
     @api
-    description="slide description";
+    url = "https://www.google.com";
     @api
-    description2="slide description";
+    url2 = "https://www.google.com";
     @api
-    description3="slide description";
+    url3 = "https://www.google.com";
 
     @api
-    altText="Alternative image text";
+    description = "slide description";
     @api
-    altText2="Alternative image text";
+    description2 = "slide description";
     @api
-    altText3="Alternative image text";
+    description3 = "slide description";
 
     @api
-    header="Slide Header";
+    altText = "Alternative image text";
     @api
-    header2="Slide Header";
+    altText2 = "Alternative image text";
     @api
-    header3="Slide Header";
+    altText3 = "Alternative image text";
+
+    @api
+    header = "Slide Header";
+    @api
+    header2 = "Slide Header";
+    @api
+    header3 = "Slide Header";
 }

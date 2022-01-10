@@ -11,12 +11,28 @@ public class BidTriggerHandler {
         
         // Assign single bid to a variable
         Bid__c bid = bids[0];
-        
+
         // Reject if bid.Price__c is lower than Max(Price__c) on parent auction
-        Bid__c maxBid = [SELECT Price__c FROM Bid__c WHERE Auction__c=:bid.Auction__c ORDER BY Price__c DESC LIMIT 1];
-        if (bid.Price__c <= maxBid.Price__c) {
-            bid.Price__c.addError('New bid amount cannot be lower than the maximum bid amount.');
+        Bid__c maxBid;
+        Auction__c auction;
+        try {
+            maxBid = [SELECT Price__c FROM Bid__c WHERE Auction__c=:bid.Auction__c ORDER BY Price__c DESC LIMIT 1];
+        } catch (Exception e) {
+            System.debug(e);
         }
+        
+        if(maxBid != null) {
+            if (bid.Price__c <= maxBid.Price__c) {
+                bid.Price__c.addError('New bid amount cannot be lower than the maximum bid amount.');
+            }
+        } else {
+            auction = [SELECT Minimum_Bid__c FROM Auction__c WHERE Id =: bid.Auction__c];
+            if(bid.Price__c <= auction.Minimum_Bid__c) {
+                bid.addError('New bid amount cannot be lower than the maximum bid amount.');
+            }
+        }
+
+
         
         // Update parent auction, if less than one hour remaining until End_Date__c on time of insert, move End_Date__c to one hour from NOW()
         /*Auction parentAuction = [SELECT End_Date__c FROM Auction__c WHERE Id=bid.Auction__c];

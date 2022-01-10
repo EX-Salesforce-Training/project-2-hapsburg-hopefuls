@@ -20,5 +20,7 @@ public without sharing class ProfileController {
         String soql = 'SELECT ' + String.escapeSingleQuotes(String.join(fields, ', ')) + ' FROM Contact WHERE Id=:userContact';
         Contact contact = Database.query(soql);
         return contact;
+
+        // return [SELECT FirstName, LastName, Email FROM Contact WHERE Email =: UserInfo.getUserEmail() LIMIT 1];
     }
 }

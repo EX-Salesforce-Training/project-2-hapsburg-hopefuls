@@ -1,4 +1,4 @@
-public with sharing class featuredSearchHelper {
+public without sharing class featuredSearchHelper {
 	
     @AuraEnabled(cacheable=true)
     public static list<Auction__c> getAuctionList(string searchKey){

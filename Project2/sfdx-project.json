@@ -53,6 +53,13 @@
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "default": false
+        },
+        {
+            "path": "force-app",
+            "package": "Profile Page",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
         }
     ],
     "name": "Project2",
@@ -70,6 +77,7 @@
         "Auction Detail": "0Ho5f000000PBIUCA4",
         "Bid History": "0Ho5f000000PBIeCAO",
         "Base Package@0.1.0-4": "04t5f000000Jd27AAC",
-        "Home Page 2": "0Ho5f000000PBIyCAO"
+        "Home Page 2": "0Ho5f000000PBIyCAO",
+        "Profile Page": "0Ho5f000000PBJ3CAO"
     }
 }
