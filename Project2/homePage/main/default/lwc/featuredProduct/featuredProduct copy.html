@@ -1,0 +1,39 @@
+<template>
+    <div class="slds-m-around_medium">
+            <lightning-button label="Search"
+                onclick={handleSearch}
+                variant="brand"
+            ></lightning-button>
+
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-m-top_small">
+                <thead>
+                    
+                    <tr class="slds-line-height_reset">
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Product Name">Product Name</div>
+                        </th>
+
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Product Type">Product Type</div>
+                        </th>
+                    </tr>
+
+
+                </thead>
+
+                <tbody>
+                    <template for:each={auctions} for:item="Auction__c">
+                        <tr class="slds-hint-parent" key={Auction__c.Auction_Title__c}>
+                            <td>
+                                <div class="slds-truncate">{Auction__c.Auction_Title__c}</div>
+                            </td>
+                            <td>
+                                <div class="slds-truncate">{Auction__c.Product_Tags__c}</div>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+
+    </div>   
+</template>

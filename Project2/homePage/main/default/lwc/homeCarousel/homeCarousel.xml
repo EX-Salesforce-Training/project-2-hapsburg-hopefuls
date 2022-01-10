@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="helloWorld">
+  <apiVersion>52.0</apiVersion>
+  <isExposed>true</isExposed>
+  <targets>
+    <target>lightning__AppPage</target>
+    <target>lightning__RecordPage</target>
+    <target>lightning__HomePage</target>
+    <target>lightningCommunity__Page</target>
+    <target>lightningCommunity__Default</target>
+  </targets>
+
+  <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="url" type="String" default="https://www.google.com"></property>
+            <property name="header" type="String" default="Menu Button"></property>
+            <property name="altText" type="String" default="Menu Button"></property>
+            <property name="description" type="String" default="Menu Button"></property>
+
+            <property name="url2" type="String" default="https://www.google.com"></property>
+            <property name="header2" type="String" default="Menu Button"></property>
+            <property name="altText2" type="String" default="Menu Button"></property>
+            <property name="description2" type="String" default="Menu Button"></property>
+
+            <property name="url3" type="String" default="https://www.google.com"></property>
+            <property name="header3" type="String" default="Menu Button"></property>
+            <property name="altText3" type="String" default="Menu Button"></property>
+            <property name="description3" type="String" default="Menu Button"></property>
+        </targetConfig>
+   </targetConfigs> 
+
+</LightningComponentBundle>

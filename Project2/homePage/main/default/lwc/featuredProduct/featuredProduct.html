@@ -1,0 +1,38 @@
+<template>
+    <div class="slds-grid slds-wrap spacing-bottom">
+      <div class="slds-col small-spacing-bottom slds-size_1-of-1 title">
+        <h1>Featured {featured1}</h1>
+      </div>
+      <div class="slds-col slds-grid slds-grid_align-center slds-size_1-of-12 center">
+        <button onclick={handleLeftClick}>&#60;</button>
+      </div>
+      <div onclick={handleClick} class="slds-col slds-grid overflow slds-size_10-of-12 container hover-change">
+        <template for:each={auctions} for:item="Auction__c">
+          <article key={Auction__c.Auction_Title__c} class="slds-card slds-size_1-of-4 content-spacing">
+            <div class="slds-card__header slds-grid slds-assistive-text">
+              <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__body">
+                  <h2 class="slds-card__header-title">
+                    <a href="#" class="slds-card__header-link slds-truncate" title="Card Header">
+                      <span>Card Header</span>
+                    </a> 
+                  </h2>
+                </div>
+              </header>
+            </div>
+            <div class="slds-card__body slds-card__body_inner">
+              <img class="card-image" src={Auction__c.Image__c}>
+            </div>
+            <footer class="slds-card__footer">
+              <a class="slds-card__footer-action" href="#">Price: $15.99
+                <span class="slds-assistive-text">Accounts</span>
+              </a>
+            </footer>
+          </article>
+        </template>
+      </div>
+      <div class="slds-col slds-grid slds-grid_align-center slds-size_1-of-12 center">
+        <button onclick={handleRightClick}>	&#62;</button>
+      </div>
+    </div>
+  </template>
