@@ -17,18 +17,13 @@ public class BidTriggerHandler {
         Auction__c auction;
         try {
             maxBid = [SELECT Price__c FROM Bid__c WHERE Auction__c=:bid.Auction__c ORDER BY Price__c DESC LIMIT 1];
-        } catch (Exception e) {
-            System.debug(e);
-        }
-        
-        if(maxBid != null) {
             if (bid.Price__c <= maxBid.Price__c) {
-                bid.Price__c.addError('New bid amount cannot be lower than the maximum bid amount.');
+                bid.addError('New bid amount cannot be lower than the maximum bid amount.' + maxBid.Price__c);
             }
-        } else {
+        } catch (Exception e) {
             auction = [SELECT Minimum_Bid__c FROM Auction__c WHERE Id =: bid.Auction__c];
             if(bid.Price__c <= auction.Minimum_Bid__c) {
-                bid.addError('New bid amount cannot be lower than the maximum bid amount.');
+                bid.addError('New bid amount cannot be lower than the minimum bid price.');
             }
         }
 
