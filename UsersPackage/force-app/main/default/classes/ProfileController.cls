@@ -1,4 +1,4 @@
-public without sharing class ProfileController {
+public class ProfileController {
     @AuraEnabled(cacheable=true)
     public static User getUser() {
         User user = [SELECT name, contactId FROM User WHERE Id=:UserInfo.getUserId()];
