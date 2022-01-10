@@ -73,7 +73,7 @@
             ]
         },
         {
-            "path": "WholeProject/force-app",
+            "path": "WholeProject/UsersPackage",
             "package": "Profile Page",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
