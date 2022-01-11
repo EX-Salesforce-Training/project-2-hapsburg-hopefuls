@@ -7,7 +7,8 @@ public class ProfileControllerTest {
     }
     
     public static User setupCustomerUser() {
-        Profile profile = [SELECT Id, UserLicense.Name FROM Profile WHERE Name='Customer Community User' LIMIT 1];
+        Profile profile = [SELECT Id, Name FROM Profile WHERE Name='Custom: Customer' LIMIT 1];
+        System.debug(profile);
         
         Account account = new Account(
         	name = 'Registrants'
