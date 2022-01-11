@@ -1,4 +1,4 @@
-
+@isTest
 public class ProfileControllerTest {
 
     // @testSetup
@@ -7,7 +7,10 @@ public class ProfileControllerTest {
     // }
     
     // public static User setupCustomerUser() {
-    //     Profile profile = [SELECT Id, UserLicense.Name FROM Profile WHERE Name='Customer Community User' LIMIT 1];
+    //     User adminUser = [Select Id, UserRoleId From User Where Profile.Name='System Administrator' Limit 1];
+    //     User user;
+    //     System.runAs(adminUser) {
+    //     Profile profile = [SELECT Id, UserLicense.Name FROM Profile WHERE Name='Customer Community Plus User' LIMIT 1];
         
     //     Account account = new Account(
     //     	name = 'Registrants'
@@ -21,7 +24,7 @@ public class ProfileControllerTest {
     //     );
     //     insert contact;
         
-    //     User user = new User(
+    //     user = new User(
     //         Username = 'john@example.com',
     //         ContactId = contact.Id,
     //         FirstName = 'John',
@@ -35,11 +38,12 @@ public class ProfileControllerTest {
     //         LanguageLocaleKey = 'en_US'
     //     );
     //     insert user;
+    //     }
     //     return user;
     // }
     
     // @isTest
-    // private static void getProfileTest() {
+    // public static void getProfileTest() {
     //     User runAsUser = [SELECT Id FROM User WHERE Username='john@example.com'];
     //     Contact customerContact = [SELECT Name, Id FROM Contact WHERE Name='John Smith'];
     //     System.runAs(runAsUser) {

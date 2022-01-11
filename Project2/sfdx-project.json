@@ -87,7 +87,7 @@
         },
         {
             "path": "WholeProject",
-            "package": "Whole Project",
+            "package": "The Whole Project",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "default": false
@@ -115,6 +115,9 @@
         "Whole Project@0.1.0-2": "04t5f000000JeVWAA0",
         "Whole Project@0.1.0-3": "04t5f000000JeVbAAK",
         "Whole Project@0.1.0-4": "04t5f000000JemMAAS",
-        "Whole Project@0.1.0-5": "04t5f000000JeqjAAC"
+        "Whole Project@0.1.0-5": "04t5f000000JeqjAAC",
+        "The Whole Project": "0Ho5f000000fxgrCAA",
+        "The Whole Project@0.1.0-1": "04t5f0000004FNIAA2",
+        "The Whole Project@0.1.0-2": "04t5f0000004FRVAA2"
     }
 }

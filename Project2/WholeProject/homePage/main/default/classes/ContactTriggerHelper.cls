@@ -65,7 +65,7 @@ public class ContactTriggerHelper {
         if(conList.size() > 0){
             for(Contact c: ContactTOCheck) {
                 for(Contact con : conList) {
-                    if(con.email == c.email) {
+                    if(c.Email != null && con.email == c.email) {
                         c.addError('Duplicate contact found. Contact ' +c.email+ ' already exists.');
                     }
                 }
